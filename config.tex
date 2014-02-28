@@ -1,0 +1,27 @@
+%-- Package hyperref ------------------------------------------------------------------------------
+\usepackage[
+	plainpages=false, %Gibt an auf welcher Seite die pdf-Darstellung beginnt.
+	pdfpagelabels,
+	pdftex=true,
+	breaklinks=true, %/false: Gibt an, ob Links umgebrochen werden duerfen.
+	%linktocpage=true/false: im Inhaltsverzeichnis sind nur die Seitenzahlen links, nicht der Text
+	colorlinks=true, %/false: Links werden eingefaerbt (Farben werden mit linkcolor, anchorcolor ... festgelegt)
+	linkcolor=black, %Farbe des verlinkten Textes, Dokument-interne Links
+	citecolor=black, %Farbe des verlinkten Textes, Links zum Literaturverzeichnis
+	filecolor=black, %Farbe des verlinkten Textes, Links auf lokale Dateien
+	urlcolor=black, %Farbe des verlinkten Textes, externe URLs
+	%frenchlinks=true/false: Links werden als smallcaps, anstatt farbig dargestellt.
+	menucolor=black
+]{hyperref}
+
+\hypersetup{
+	pdftitle={GreenSubway},
+	pdfauthor={Andreas Jahn, Stephan Sigg},
+	pdfsubject={GreenSubway},
+	pdfkeywords={GreenSubway},
+	%pdfpagelayout={TwoColumnRight}
+	%bookmarksnumbered=true,
+	%bookmarksopen=true,
+	%bookmarksopenlevel=1,
+	%pdfpagemode=None % None, UseOutline, UseThumbs, FullScreen
+}
