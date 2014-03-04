@@ -1,47 +1,47 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: GreenSubway.aux
 The style file: plain.bst
-Database file #1: references.bib.bib
+Database file #1: literaturGreenSubway.bib.bib
 Warning--to sort, need author or key in TMB
-You've used 3 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            513 strings with 4488 characters,
-and the built_in function-call counts, 1058 in all, are:
-= -- 95
-> -- 46
-< -- 2
-+ -- 17
-- -- 14
-* -- 65
-:= -- 160
-add.period$ -- 8
-call.type$ -- 3
-change.case$ -- 13
+            604 strings with 7955 characters,
+and the built_in function-call counts, 6805 in all, are:
+= -- 601
+> -- 355
+< -- 9
++ -- 140
+- -- 118
+* -- 439
+:= -- 1086
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 110
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 46
-empty$ -- 93
-format.name$ -- 14
-if$ -- 240
+cite$ -- 20
+duplicate$ -- 299
+empty$ -- 583
+format.name$ -- 118
+if$ -- 1480
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 16
-num.names$ -- 6
-pop$ -- 21
+int.to.str$ -- 19
+missing$ -- 17
+newline$ -- 96
+num.names$ -- 40
+pop$ -- 164
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 93
 quote$ -- 0
-skip$ -- 45
+skip$ -- 212
 stack$ -- 0
-substring$ -- 58
-swap$ -- 18
-text.length$ -- 2
+substring$ -- 283
+swap$ -- 87
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 76
 warning$ -- 1
-while$ -- 9
-width$ -- 4
-write$ -- 29
+while$ -- 54
+width$ -- 21
+write$ -- 199
 (There was 1 warning)
