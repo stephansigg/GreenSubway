@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Prediction_Ruscher_2012}
-
-
 \bibitem{Prediction_Bannach_2010}
 D.~Bannach, K.~Kunze, J.~Weppner, and P.~Lukowicz.
 \newblock Integrated tool chain for recording and handling large, multimodal
@@ -58,6 +55,13 @@ P.~Nurmi, M.~Martin, and J.~A. Flanagan.
 \newblock In {\em CAPS 2005, Workshop on Context Awareness for Proactive
   Systems}, June 2005.
 
+\bibitem{Prediction_Ruscher_2012}
+G.~Ruscher.
+\newblock Simultaneous counting and location of persons based on a
+  heterogeneous sensor setup.
+\newblock In {\em First Workshop on recent advances in behavior prediction and
+  pro-active pervasive computing}, 2012.
+
 \bibitem{Prediction_Seiter_2012}
 J.~Seiter, O.~Amft, and G.~Troester.
 \newblock Assessing topic models: How to obtain robustness?
@@ -98,7 +102,6 @@ Gary~M. Weiss and Haym Hirsh.
 \newblock In {\em Predicting the future: ai approaches to time-series problems;
   Workshop in conjunction with the fifteenth national conference on artificial
   intelligence}, pages 83--90, 1998.
-\newblock Bemerkung:.
 
 \bibitem{Prediction_Zhang_2012}
 R.~Zhang, M.~Chu B.~Price, and A.~Walendowski.
