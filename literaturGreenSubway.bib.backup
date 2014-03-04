@@ -1,0 +1,59 @@
+@InProceedings{ 5071,
+	author = "Gary M. Weiss and Haym Hirsh",
+	title = "Learning to Predict Rare Events in Categorical Time-Series Data",
+	booktitle = "Predicting the future: ai approaches to time-series problems; Workshop in conjunction with the fifteenth national conference on artificial intelligence",
+	pages = "83--90",
+	year = "1998",
+	note = "Bemerkung:",
+	localfile = "/home/stephan/Daten/Arbeit/Paper\_Tutorials/Paper/980101\_5071\_LearningToPredictRareEventsInCategoricalTimeSeriesData.pdf"
+}
+@InProceedings{ 5035,
+	author = "Rene Mayrhofer",
+	title = "Context Prediction based on Context Histories: Expected Benefits, Issues and Current State-of-the-Art",
+	booktitle = "Proceedings of the 1st international Workshop on exploiting context histories in smart environments (ECHISE) at the 3rd Int. Conference on Pervasive Computing",
+	pages = "",
+	year = "2005",
+	editor = "T. Pronte and B. Beyers and G. Fitzpatrick and L.D. Harvel"
+}
+@InProceedings{ 5013,
+	author = "Rene Michael Mayrhofer and Harald Radi and Alois Ferscha",
+	title = "Recognising and Predicting Context by Learning from User Behaviour",
+	booktitle = "The International Conference On Advances in Mobile Multimedia (MoMM2003)",
+	pages = "25--35",
+	month = "September",
+	volume = "171",
+	year = "2003"
+}
+@PhDThesis{ 5001,
+	author = "Rene Michael Mayrhofer",
+	title = "An Architecture for Context Prediction",
+	school = "Johannes Kepeler University of Linz",
+	year = "2004",
+	address = "Altenbergstrasse 69, 4040 Linz, Austria",
+	month = "Oktober",
+	localfile = "/home/stephan/Daten/Kassel/Paper\_Tutorials\_Konferenzen/Paper/041001\_PhDthesis\_Mayrhofer\_AnArchitectureForContextPrediction-p1.pdf"
+}
+@InProceedings{ 5010,
+	author = "P. Nurmi and M. Martin and J. A. Flanagan",
+	title = "Enabling Proactiveness through Context Prediction",
+	booktitle = "CAPS 2005, Workshop on Context Awareness for Proactive Systems",
+	month = "June",
+	year = "2005"
+}
+@ARTICLE{4027,
+author={Sigg, Stephan and Gordon, Dawud and Zengen, Georg von and Beigl, Michael and Haseloff, Sandra and David, Klaus},
+journal={IEEE Transactions on Mobile Computing}, 
+title={Investigation of Context Prediction Accuracy for Different Context Abstraction Levels},
+year={2012},
+month={june},
+volume={11},
+number={6},
+pages={1047 -1059}}
+
+@InProceedings{Prediction_Bannach_2010,
+author={D. Bannach and K. Kunze and J. Weppner and P. Lukowicz}, 
+title={Integrated tool chain for recording and handling large, multimodal context recognition data sets}, 
+booktitle={Proceedings of the 12th inernational conference on Ubiquitous Computing}, 
+pages={357-358}, 
+year={2010}
+}
