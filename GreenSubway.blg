@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: GreenSubway.aux
+The style file: plain.bst
+Database file #1: references.bib.bib
+Warning--to sort, need author or key in TMB
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            513 strings with 4488 characters,
+and the built_in function-call counts, 1058 in all, are:
+= -- 95
+> -- 46
+< -- 2
++ -- 17
+- -- 14
+* -- 65
+:= -- 160
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 46
+empty$ -- 93
+format.name$ -- 14
+if$ -- 240
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 16
+num.names$ -- 6
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 58
+swap$ -- 18
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 1
+while$ -- 9
+width$ -- 4
+write$ -- 29
+(There was 1 warning)
