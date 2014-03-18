@@ -1,16 +1,46 @@
 \section{Data Acquisition}
 \label{sec:dataAcquisition}
 
-\subsection{Metro Station}
-\label{subsec:metroStation}
+The prediction is based on occupancy data gathered in a metro station. First some facts regarding the metro station will be given. Subsequently the data acquisition will be explained.
 
-Metro Station Passeig de Gracia - Line 3 form now on PdG-L3
+\subsection{Line Station}
+\label{subsec:lineStation}
 
+In this section the "station" is described. First the word "station" in the area of metro networks needs to be defined.
 
-\subsection{Data Acquisition}
-\label{subsec:dataAcquisition}
+A metro network is composed by one or more metro lines. Each line has a fixed railway with a given number of stops to allow people to get on or off the trains by means of a platform: each of these stops is called "line station". A "metro station" is the concept that represents the point in space through which a passenger gets underground and into a line station. Metro station and line station can be the same physical entity, but it is possible that there are some "metro stations" that receive two or more "metro lines" in different platforms, and have therefore, two or more "line stations" within.
 
-Metro Station Passeig de Gracia Line 3 (PdGL3).
+The data, used in this work, are gathered in line station in Passeig de Gr\`{a}cia - Line~3~(PdG-L3) in Barcelona. Passeig de Gr\`{a}cia~(PdG) is a station in the metro network of "Transports Metropolitans de Barcelona"~(TMB) and lies in a very iconic and touristic part of Barcelona. Some of the most popular buildings designed by Antoni Gaudi are in the proximity (Casa Batll\`{o}, Casa Mil\`{a}), as well as the city's most renown and exclusive boutiques.
+The metro station is a historic icon of the Barcelona metro network. First opened in December of 1924, as a (line) station for Line~3, nowadays PdG holds three different line stations: L2, L3, and L4. The stations were built in three different periods and using different construction technologies in each of the premises (contemporary to the building periods). All line stations station has been refurbished a few times since 1924 and new equipment has been added recently.
 
-Data are gathered via CCTV. The images are processed. Out of each image the number of passenger is gathered. In this way a database was filled which contains for each data set the time, location and value.
-Data Acquisition...
+Passeig~de~Gr\`{a}cia - Line~3~(PdG-L3) turns out to be representative for many station within TMBs metro network. Table~\ref{?} depicts the statistical reasons behind this~\cite{TMB}. Furthermore PdG-L3 is a crowded station which have low-rate usage hours as well. This provides a wide range of data which allows to test with very busy peak hours as well as with off-peaks. Figure~\ref{fig:PdG-L3_platforms} depicts the platforms of PdG-L3.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\linewidth]{PdG-L3_platforms.jpg} 
+  \caption{PdG-L3 Plattforms. \cite{TMB}}
+  \label{fig:PdG-L3_platforms}
+\end{figure}
+
+The line station PdG-L3 consists of several public spaces: halls, transit areas, accesses to the platforms, and platforms. Furthermore there are private spaces such as technical rooms or staff dependencies. The private spaces are not part of the investigation in this work. Figure~\ref{fig:PdG-L3_schematic} depicts the line station schematic where the accesses to platforms are highlighted in red.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\linewidth]{PdG-L3_schematic.jpg} 
+  \caption{Schematic representation of PdG-L3. The accesses to platforms are highlighted in red. \cite{TMB}}
+  \label{fig:PdG-L3_schematic}
+\end{figure}
+
+The public spaces are equipped with a Closed Circuit Television~(CCTV) for security reasons. The cameras of the CCTV-system provide images which contains the information how many people are on a dedicated time on a dedicated place. To gather these information the images needs to be processed. In the following the processing of the camera images is described in short.
+
+\subsection{Data collecting}
+\label{subsec:data}
+
+The Data are gathered via CCTV. The CCTV images are stored on a video recorder. A crowd density estimator processes the images and returns the number of passengers on this image. The number of passenger are saved in a database together with a timestamp and the location. For privacy reasons the images are not saved over a longer time period. Figure~\ref{fig:crowdDensityEstimator} depict the processing chain.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\linewidth]{imageProcessing.pdf} 
+  \caption{Gathering number of people out of the camera images}
+  \label{fig:crowdDensityEstimator}
+\end{figure}
