@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  4 MAR 2014 11:41
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  1 APR 2014 15:37
 entering extended mode
  %&-line parsing enabled.
 **GreenSubway.tex
@@ -358,16 +358,16 @@ LaTeX Info: Redefining \pageref on input line 6.
 \openout3 = `GreenSubway.out'.
 
 \AtBeginShipoutBox=\box31
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 61.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -376,32 +376,56 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 /updmap/pdftex.map}
 
 
-]) (./results.tex) (./conclusion.tex)
-(./acknowledgements.tex) (./GreenSubway.bbl)pdfTeX warning (ext4): destination 
-with the same identifier (name{page.}) has been already used, duplicate ignored
+]
 
+LaTeX Warning: Reference `?' on page \thepage  undefined on input line 16.
+
+<PdG-L3_platforms.jpg, id=96, 752.8125pt x 565.11125pt>
+File: PdG-L3_platforms.jpg Graphic file (type jpg)
+
+<use PdG-L3_platforms.jpg>
+<PdG-L3_schematic.jpg, id=99, 1214.5375pt x 693.59125pt>
+File: PdG-L3_schematic.jpg Graphic file (type jpg)
+
+<use PdG-L3_schematic.jpg>
+<imageProcessing.pdf, id=103, 398.68939pt x 162.6075pt>
+File: imageProcessing.pdf Graphic file (type pdf)
+
+<use imageProcessing.pdf>) (./results.tex) (./conclusion.tex)
+(./acknowledgements.tex)pdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \end{document}
-                    [2] (./GreenSubway.aux) ) 
-Here is how much of TeX's memory you used:
- 5472 strings out of 495021
- 75045 string characters out of 1181035
- 155659 words of memory out of 3000000
- 8507 multiletter control sequences out of 15000+50000
- 45245 words of font info for 59 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 40i,11n,37p,452b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/en
-c/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr
-/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texl
-ive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
+l.81 
+      [2 <./PdG-L3_platforms.jpg> <./PdG-L3_schematic.jpg> <./imageProcessing.p
+df>] (./GreenSubway.bbl)pdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \end{document}
+                    [3] (./GreenSubway.aux)
 
-Output written on GreenSubway.pdf (2 pages, 112265 bytes).
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5504 strings out of 495021
+ 75546 string characters out of 1181035
+ 155889 words of memory out of 3000000
+ 8526 multiletter control sequences out of 15000+50000
+ 48393 words of font info for 65 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 40i,11n,37p,645b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
+mf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on GreenSubway.pdf (3 pages, 280861 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
