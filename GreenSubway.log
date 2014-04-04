@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  1 APR 2014 15:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  4 APR 2014 14:48
 entering extended mode
  %&-line parsing enabled.
 **GreenSubway.tex
@@ -303,7 +303,11 @@ Package hyperref Warning: Option `pdfpagelabels' is turned off
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count114
-)) (./GreenSubway.aux)
+))
+(/usr/share/texmf-texlive/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen126
+) (./GreenSubway.aux)
 \openout1 = `GreenSubway.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -324,13 +328,13 @@ LaTeX Font Info:    ... okay on input line 6.
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
-\scratchdimen=\dimen126
+\scratchdimen=\dimen127
 \scratchbox=\box30
 \nofMPsegments=\count116
 \nofMParguments=\count117
 \everyMPshowfont=\toks37
 \MPscratchCnt=\count118
-\MPscratchDim=\dimen127
+\MPscratchDim=\dimen128
 \MPnumerator=\count119
 \everyMPtoPDFconversion=\toks38
 ) (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
@@ -372,60 +376,108 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./introduction.tex)
-(./stateOfTheArt.tex) (./dataAcquisition.tex [1{/var/lib/texmf/fonts/map/pdftex
-/updmap/pdftex.map}
+(./stateOfTheArt.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+])
+(./dataAcquisition.tex
 
 LaTeX Warning: Reference `?' on page \thepage  undefined on input line 16.
 
-<PdG-L3_platforms.jpg, id=96, 752.8125pt x 565.11125pt>
+<PdG-L3_platforms.jpg, id=114, 752.8125pt x 565.11125pt>
 File: PdG-L3_platforms.jpg Graphic file (type jpg)
 
 <use PdG-L3_platforms.jpg>
-<PdG-L3_schematic.jpg, id=99, 1214.5375pt x 693.59125pt>
+<PdG-L3_schematic.jpg, id=117, 1214.5375pt x 693.59125pt>
 File: PdG-L3_schematic.jpg Graphic file (type jpg)
 
 <use PdG-L3_schematic.jpg>
-<imageProcessing.pdf, id=103, 398.68939pt x 162.6075pt>
+<imageProcessing.pdf, id=121, 398.68939pt x 162.6075pt>
 File: imageProcessing.pdf Graphic file (type pdf)
 
-<use imageProcessing.pdf>) (./results.tex) (./conclusion.tex)
-(./acknowledgements.tex)pdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
+<use imageProcessing.pdf>
+Overfull \hbox (4.53473pt too wide) in paragraph at lines 51--53
+[]\T1/aer/m/n/9 Overall a database of 90 days was avail-able. These database
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./occupancyDatabase.pdf): PDF inclusion: found P
+DF version <1.5>, but at most version <1.4> allowed
+<occupancyDatabase.pdf, id=123, 844.95668pt x 597.43207pt>
+File: occupancyDatabase.pdf Graphic file (type pdf)
+
+<use occupancyDatabase.pdf>) (./results.texpdfTeX warning (ext4): destination w
+ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 
-      [2 <./PdG-L3_platforms.jpg> <./PdG-L3_schematic.jpg> <./imageProcessing.p
-df>] (./GreenSubway.bbl)pdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
+l.1 \section{Results}
+                      [2 <./PdG-L3_platforms.jpg> <./PdG-L3_schematic.jpg>]
+Overfull \hbox (6.51254pt too wide) in paragraph at lines 14--15
+\T1/aer/m/n/9 the ac-tual value match, a per-for-mance mea-sure-ment is needed.
+
+ []
+
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+
+Overfull \hbox (1.16824pt too wide) in paragraph at lines 30--32
+[]\T1/aer/m/n/9 Instead the ab-so-lute dif-fer-ence be-tween the pre-dicted num
+-
+ []
+
+
+Overfull \hbox (5.3346pt too wide) in paragraph at lines 30--32
+\T1/aer/m/n/9 seems to pro-vide a mean-ing-ful mea-sure-ment. A measurement-
+ []
+
+) (./conclusion.tex) (./acknowledgements.tex) (./GreenSubway.bbl
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \end{document}
-                    [3] (./GreenSubway.aux)
+l.32 
+      [3 <./imageProcessing.pdf> <./occupancyDatabase.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Overfull \vbox (0.72601pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \end{document}
+                    [4] (./GreenSubway.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5504 strings out of 495021
- 75546 string characters out of 1181035
- 155889 words of memory out of 3000000
- 8526 multiletter control sequences out of 15000+50000
- 48393 words of font info for 65 fonts, out of 3000000 for 9000
+ 5552 strings out of 495021
+ 76394 string characters out of 1181035
+ 157686 words of memory out of 3000000
+ 8556 multiletter control sequences out of 15000+50000
+ 49529 words of font info for 66 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,11n,37p,645b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,37p,645b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pf
-b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
-mf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/typ
-e1/urw/times/utmr8a.pfb>
-Output written on GreenSubway.pdf (3 pages, 280861 bytes).
+e1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr
+/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texl
+ive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
+rw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
+</usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on GreenSubway.pdf (4 pages, 376282 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

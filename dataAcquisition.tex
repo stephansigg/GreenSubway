@@ -34,16 +34,34 @@ The line station PdG-L3 consists of several public spaces: halls, transit areas,
 The public spaces are equipped with a Closed Circuit Television~(CCTV) for security reasons. The cameras of the CCTV-system provide images which contains the information how many people are on a dedicated time on a dedicated place. To gather these information the images needs to be processed. In the following the processing of the camera images is described in short.
 
 
-\subsection{Data collecting}
-\label{subsec:data}
+\subsection{Passenger density Data}
+\label{subsec:PassengerDensityData}
 
-Throughout the station a CCTV surveillance system already exists. 22~CCTV~cameras are in place where each camera provides in a circuit design subsequently the images. The images provided by each CCTV-camera are stored on a video recorder. A crowd density estimator processes the images and returns the number of passengers on this image. The number of passenger as well as date, time and the cameraID are saved in a database. For privacy reasons the images are not saved over a longer time period. Figure~\ref{fig:imageProcessing} depict the processing chain.
+Throughout the station a CCTV surveillance system already exists. 22~CCTV~cameras are in place where each camera provides in a circuit design subsequently the images. The images provided by each CCTV-camera are stored on a video recorder. A crowd density estimator processes the images and returns the number of passengers on this image. The number of passenger as well as date, time and the camera-ID are saved in a database. For privacy reasons the images are not saved. Figure~\ref{fig:CCTVimageProcessing} depict the processing chain.
 
 \begin{figure}[htb]
   \centering
   \includegraphics[width=\linewidth]{imageProcessing.pdf} 
   \caption{Gathering number of people out of the camera images}
-  \label{fig:imageProcessing}
+  \label{fig:CCTVimageProcessing}
 \end{figure}
 
-The saved data are the base for the investigations in this paper.
+The system runs 24~hours, 7 days a week. Each day 31680~datasets are saved. 
+
+Overall a database of 90~days was available.
+These database of passenger density information are the base for the investigations in this paper.
+
+
+
+
+\subsection{Data Analysis}
+\label{subsec:dataAnalysis}
+
+Simply depicting the data shows periodicities during a day. Where Monday till Thursday have the same outlook, Friday, Saturday and Sunday have it own frequency. Within the working days (Mo-Thu) a high ... Picture~\ref{fig:occupancyDatabase} depicts a periodicity on a Wednesday.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\linewidth]{occupancyDatabase.pdf} 
+  \caption{Occupancy distribution of one camera during one day. \cite{TMB}}
+  \label{fig:occupancyDatabase}
+\end{figure}

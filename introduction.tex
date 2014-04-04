@@ -1,11 +1,14 @@
 \section{Introduction}
 \label{sec:introduction}
 
-Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. Approximately 30\% of the required energy is needed for operating the metro stations and surroundings, such as ventilation, vertical transportation and lighting~\cite{TMB}.
+Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. Approximately 30~\% of the required energy is needed for operating the metro stations and surroundings, such as ventilation, vertical transportation and lighting~\cite{TMB}.
 
-To realize energy saving in this area already an intelligent control system for metro stations was developed. The control system is adaptive on the basis of environmental factor forecasts and occupancy flow patterns~\cite{guo_intelligent_2013}.
+An approach to realize energy saving is to make the station "smart". That means the stations adapts settings "intelligent" on changes in the environment. In the area of underground station this could be e.g. the shutting down of escalators, when the last passengers of the day left the station.
 
-Changing the parameter doesn't have an immediate effect. Therefore it would the number of passenger needs to be predicted.
+For this aim an intelligent control system for metro stations was developed. The control system is adaptive on the basis of environmental factor forecasts and passenger occupancy~\cite{guo_intelligent_2013}.
 
-This paper focuses the prediction of number of passenger in the station.
+While shutting down or turning on the escalators have an immediate effect, this in not the case for slow reacting systems, e.g. the ventilation. In order to satisfy the restrictions, i.e. guarantee the required air quality on every point in time, the ventilation needs to be operated in a foreseen manner, e.g. dependent on the expected number of passenger in the station.
 
+This paper investigates in the prediction of number of passenger in the station.
+
+The remainder of this paper is organized as follows. In Section~\ref{sec:stateOfTheArt} an overview of the related literature is given. Section~\ref{sec:dataAcquisition} focuses on the data acquisition and the experiments, followed by Section~\ref{sec:results}, the evaluation and results. Last, Section~\ref{sec:conclusion}, summarizes the results.
