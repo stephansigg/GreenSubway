@@ -3,10 +3,49 @@
 
 This section focuses on the evaluation and the results. First the evaluation of the recorded sensor data is shown. Subsequently the results are presented and discussed.
 
+
 \subsection{Evaluation}
 \label{subsec:evaluation}
 
 The evaluation analyses the prediction occupancy and provides a measurement in order to depict the prediction performance. The evaluation in detail is depicted in the following.
+
+
+\subsubsection{prediction approach}
+\label{subsubsec:predictionApproach}
+
+Alignment is a context time series prediction algorithm that is inspired by algorithms with a focus on computational biology and based on local alignment techniques like the Smith and Waterman algorithm (T.F. Smith and M.S. Waterman 1981). Basically Alignment compares two context sequences and therefore belongs to the branch of the pattern matching algorithms. For the use of number of passenger prediction, the first sequence represents the current sensed occupancy of the same location, called observation. The second sequence represents the history of passenger occupancy.
+During the matching process that pattern in the history will be identified whose similarity to the given current observation pattern is the highest and therefore obtained the lowest penalty costs for a given cost matrix. Subsequently, the context that follows next to the identified pattern will be predicted. Figure~\ref{fig:alignmentApproach} illustrates the approach. In this example the values of five, nine and 17 are in the observation pattern as well as in the history pattern. Consequently both patterns match. The next value in the history pattern, the seven, is the prediction.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.9\linewidth]{alignmentApproach.png} 
+  \caption{Alignment approach}
+  \label{fig:alignmentApproach}
+\end{figure}
+
+If and how two pattern "match" is calculated during the matching process and noted in the cost matrix. Whenever to strings are not matching, e.g. because of a gap, a penalty is added. The goal is to stay with zero costs, the optimal value.
+
+\begin{table}[htb]
+  \center
+  \begin{tabular}{|l|c|}
+  \hline 
+        & penalty \\ 
+  \hline 
+  match & 0 \\ 
+  \hline 
+  mismatch & 1 \\ 
+  \hline 
+  gap in first sequence & 1 \\ 
+  \hline 
+  gap in second pattern & 1 \\ 
+  \hline 
+  \end{tabular}
+  \caption{example of alignment penalties}
+  \label{tab:alignmentPenalties}
+\end{table}
+
+Penalty costs are a way to influence the alignment results. If gabs need to be avoided during the matching process, penalties can be increased. A different rating of gaps in the first and second sequence is possible. If gaps in the first sequence are not acceptable but gaps in the seconds sequence are tolerable penalty for gaps in the first sequence can be set higher than penalty for gaps in the second sequence. In general penalty cost can be freely selected. The highest similarity between history pattern and the current observation is given on the lowest penalty costs. Figure 3 depicts the filled cost matrix.
+
 
 \subsubsection{Performance measurement}
 \label{subsubsec:performanceMeasurement}
@@ -35,7 +74,7 @@ accuracy = |1-2| = 1
 \label{eq:diffExample}
 \end{equation}
 
-One is already close to zero and allows therefore the conclusion of a good prediction. 
+A difference between predicted and actual number of passenger of one allows the conclusion of a good prediction. 
 
 
 \subsection{Results}

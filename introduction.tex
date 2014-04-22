@@ -1,14 +1,27 @@
 \section{Introduction}
 \label{sec:introduction}
 
-Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. Approximately 30~\% of the required energy is needed for operating the metro stations and surroundings, such as ventilation, vertical transportation and lighting~\cite{TMB}.
+Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. 
 
-An approach to realize energy saving is to make the station "smart". That means the stations adapts settings "intelligent" on changes in the environment. In the area of underground station this could be e.g. the shutting down of escalators, when the last passengers of the day left the station.
+So far the optimization of the energy efficiency of transportation equipments, e.g. trains have been considered. Optimization of the energy efficiency of the metro stations operations, however, is only minimally exploited.
 
-For this aim an intelligent control system for metro stations was developed. The control system is adaptive on the basis of environmental factor forecasts and passenger occupancy~\cite{guo_intelligent_2013}.
+But realizing savings in energy consumption are meaningful for two reasons:
+(\textit{i})~Despite the relatively small percentage that can be gained with optimal management of one metro station compared to optimizing trains, the high numbers of metro stations in the underground transportation will yield large energy savings in overall terms. In other words, in the management of metro stations is a high multiplication factor that boosts each relative small saving at a station level to a high saving at a metro network level.
+Moreover (\textit{ii}) the optimization of the energy efficiency of the metro stations involves much less investments than the ones that are usually applied to transportation means and equipments. Consequently is it possible to distributed the technology easily across the whole metro network, as well as other transportation systems and realize savings in short term.
 
-While shutting down or turning on the escalators have an immediate effect, this in not the case for slow reacting systems, e.g. the ventilation. In order to satisfy the restrictions, i.e. guarantee the required air quality on every point in time, the ventilation needs to be operated in a foreseen manner, e.g. dependent on the expected number of passenger in the station.
+For example all Barcelona (Spain) metro stations consumes 63,1 millions of kWh annually~\cite{TMB}. A relative small saving of, e.g. 5\% in the electricity consumption of one metro station, is equivalent to the electricity consumed in more than 700 households during one year.
 
-This paper investigates in the prediction of number of passenger in the station.
+The optimized management of stations and surroundings, such as ventilation, vertical transportation and lighting does have an impact.
+
+An approach to optimize the energy efficiency and to realize energy savings is to
+enable the station to control the surroundings, such as ventilation, vertical transportation and lighting "intelligent" according the current situation. 
+A simple example of "intelligent" control could be the slowing down the frequency of the ventilation-fans of the station, when the count of passenger doesn't make full speed necessary.
+
+To achieve the context aware behaviour of a metro station basically two parts are necessary. (i) A controller which calculate the appropriate actions. A controller which is adaptive on the basis of various environmental factors, forecasts and passenger occupancy was developed~\cite{guo_intelligent_2013}.
+(ii) The environmental factors, and prediction must be available for the controller. 
+
+Staying in the given example the controller needs be aware about the current count of passengers in order to decrease the fan frequency if possible. However, increasing the fan frequency is more complex. Since the decreasing of the fan frequency doesn't have an immediate effect for the air quality the fan frequency needs to be decreased in a appropriate time before the stations is abruptly crowed again. To guarantee the required air quality on every point in time, the ventilation needs to be controlled in a foreseen manner, i.e. controlled on the prospectively number of passenger in the station.
+
+This paper presents an approach for predicting the prediction of number of passenger in the station.
 
 The remainder of this paper is organized as follows. In Section~\ref{sec:stateOfTheArt} an overview of the related literature is given. Section~\ref{sec:dataAcquisition} focuses on the data acquisition and the experiments, followed by Section~\ref{sec:results}, the evaluation and results. Last, Section~\ref{sec:conclusion}, summarizes the results.
