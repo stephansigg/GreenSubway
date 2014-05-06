@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{TMB}
+
+
+\bibitem{anderson_maximizing_2009}
+Richard Anderson, Rory Maxwell, and Nigel~G. Harris.
+\newblock Maximizing the potential for metros to reduce energy consumption and
+  deliver low-carbon transportation in cities.
+\newblock {\em {MetroRail} Asia, Delhi}, pages 1--13, 2009.
+
 \bibitem{Prediction_Bannach_2010}
 D.~Bannach, K.~Kunze, J.~Weppner, and P.~Lukowicz.
 \newblock Integrated tool chain for recording and handling large, multimodal
@@ -13,6 +22,13 @@ G.~Bigwood, F.~B. Abdesslem, and T.~Henderson.
   applications.
 \newblock In {\em First Workshop on recent advances in behavior prediction and
   pro-active pervasive computing}, 2012.
+
+\bibitem{guo_intelligent_2013}
+Hongliang Guo and Alfons~H. Salden.
+\newblock Intelligent control for sustainable energy management in underground
+  stations.
+\newblock In Jean-Louis Ferrier, Oleg~Yu Gusikhin, Kurosh Madani, and Jurek~Z.
+  Sasiadek, editors, {\em {ICINCO} 2}, pages 566--571. {SciTePress}, 2013.
 
 \bibitem{Prediction_Intille_2006}
 S.~Intille, K.~Larson, E.~Tapia, J.~Beaudin, P.~Kaushik, J.~Nawyn, and
