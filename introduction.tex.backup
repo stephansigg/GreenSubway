@@ -1,11 +1,5 @@
 \section{Introduction}
 \label{sec:introduction}
-% Introduce the concept of Anticipatory Sensing here
-\begin{figure}
- \includegraphics[width=\columnwidth]{Figures/AnticipativeSensingSystem2.png}
- \caption{TODO: Improve figure; Schematic illustration of an anticipative sensing system}
- \label{figureAnticipativeSensingSystem}
-\end{figure}
 
 Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. 
 
