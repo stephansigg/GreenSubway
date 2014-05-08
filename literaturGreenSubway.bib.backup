@@ -1,12 +1,51 @@
-@InProceedings{ 5071,
-	author = "Gary M. Weiss and Haym Hirsh",
-	title = "Learning to Predict Rare Events in Categorical Time-Series Data",
-	booktitle = "Predicting the future: ai approaches to time-series problems; Workshop in conjunction with the fifteenth national conference on artificial intelligence",
-	pages = "83--90",
-	year = "1998",
-	note = "Bemerkung:",
-	localfile = "/home/stephan/Daten/Arbeit/Paper\_Tutorials/Paper/980101\_5071\_LearningToPredictRareEventsInCategoricalTimeSeriesData.pdf"
+@InProceedings{guo_intelligent_2013,
+	title = {Intelligent Control for Sustainable Energy Management in Underground Stations.},
+	isbn = {978-989-8565-71-6},
+	booktitle = {{ICINCO} 2},
+	publisher = {{SciTePress}},
+	author = {Guo, Hongliang and Salden, Alfons H.},
+	editor = {Ferrier, Jean-Louis and Gusikhin, Oleg Yu and Madani, Kurosh and Sasiadek, Jurek Z.},
+	year = {2013},
+	keywords = {dblp, {SEAM4US}},
+	pages = {566-571}
 }
+
+@Article{anderson_maximizing_2009,
+	title = {Maximizing the potential for metros to reduce energy consumption and deliver low-carbon transportation in cities},
+	journal = {{MetroRail} Asia, Delhi},
+	author = {Anderson, Richard and Maxwell, Rory and Harris, Nigel G.},
+	year = {2009},
+	keywords = {Energy, Metro, {SEAM4US}, smart environments},
+	pages = {1-13}
+}
+
+@InProceedings{ 5010,
+	author = "P. Nurmi and M. Martin and J. A. Flanagan",
+	title = "Enabling Proactiveness through Context Prediction",
+	booktitle = "CAPS 2005, Workshop on Context Awareness for Proactive Systems",
+	month = "June",
+	year = "2005"
+}
+
+@Misc{TMB,
+	OPTkey = {TMB},
+	OPTauthor = {•},
+	OPTtitle = {•},
+	OPThowpublished = {•},
+	OPTmonth = {•},
+	OPTyear = {2013},
+	OPTnote = {•},
+	OPTannote = {•}
+}
+
+@InProceedings{5071,
+	author = {Gary M. Weiss and Haym Hirsh},
+	title = {Learning to Predict Rare Events in Categorical Time-Series Data},
+	booktitle = {Predicting the future: ai approaches to time-series problems; Workshop in conjunction with the fifteenth national conference on artificial intelligence},
+	pages = {83-90},
+	year = {1998}
+}
+
 @InProceedings{ 5035,
 	author = "Rene Mayrhofer",
 	title = "Context Prediction based on Context Histories: Expected Benefits, Issues and Current State-of-the-Art",
@@ -15,6 +54,7 @@
 	year = "2005",
 	editor = "T. Pronte and B. Beyers and G. Fitzpatrick and L.D. Harvel"
 }
+
 @InProceedings{ 5013,
 	author = "Rene Michael Mayrhofer and Harald Radi and Alois Ferscha",
 	title = "Recognising and Predicting Context by Learning from User Behaviour",
@@ -24,6 +64,7 @@
 	volume = "171",
 	year = "2003"
 }
+
 @PhDThesis{ 5001,
 	author = "Rene Michael Mayrhofer",
 	title = "An Architecture for Context Prediction",
@@ -33,6 +74,7 @@
 	month = "Oktober",
 	localfile = "/home/stephan/Daten/Kassel/Paper\_Tutorials\_Konferenzen/Paper/041001\_PhDthesis\_Mayrhofer\_AnArchitectureForContextPrediction-p1.pdf"
 }
+
 @InProceedings{ 5010,
 	author = "P. Nurmi and M. Martin and J. A. Flanagan",
 	title = "Enabling Proactiveness through Context Prediction",
@@ -40,6 +82,7 @@
 	month = "June",
 	year = "2005"
 }
+
 @ARTICLE{4027,
 author={Sigg, Stephan and Gordon, Dawud and Zengen, Georg von and Beigl, Michael and Haseloff, Sandra and David, Klaus},
 journal={IEEE Transactions on Mobile Computing}, 
@@ -57,3 +100,71 @@ booktitle={Proceedings of the 12th inernational conference on Ubiquitous Computi
 pages={357-358}, 
 year={2010}
 }
+
+@InProceedings{Prediction_Intille_2006,
+author={S. Intille and K. Larson and E. Tapia and J. Beaudin and P. Kaushik and J. Nawyn and R. Rockinson}, 
+title={Using a live-in laboratory for ubiquitous computing research}, 
+booktitle={Lecture Notes in Computer Science},
+volume={3968/2006}, 
+pages={349-365}, 
+year={2006}
+}
+
+@InProceedings{Prediction_Voigtmann_2012,
+author={C. Voigtmann and K. David}, 
+title={A Survey To Location-Based Context Prediction}, 
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@inProceedings{Prediction_Ruscher_2012,
+author={G. Ruscher}, 
+title={Simultaneous Counting and Location of Persons Based on a Heterogeneous Sensor Setup},
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@InProceedings{Prediction_Murao_2012,
+author={K. Murao and T. Terada and A. Yano and R. Matsukura},
+title={Detecting Room-to-Room Movement by Passive Infrared Sensors in Home Environments}, 
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@InProceedings{Prediction_Zhang_2012,
+author={R. Zhang and B. Price, M. Chu and A. Walendowski},
+title={Location-based Predictions for Personalized Contextual Services using Social Network Data},
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@InProceedings{Prediction_Bigwood_2012,
+author={G. Bigwood and F. B. Abdesslem and T. Henderson},
+title={Predicting location-sharing privacy preferences in social network applications}, 
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@InProceedings{Prediction_Seiter_2012,
+author={J. Seiter and O. Amft and G. Troester},
+title={Assessing Topic Models: How to Obtain Robustness?}, 
+booktitle={First Workshop on recent advances in behavior prediction and pro-active pervasive computing},
+year={2012}
+}
+
+@InProceedings{Prediction_Tenorth_2009,
+author={M. Tenorth and J. Bandouch and M. Beetz},
+title={The TUM kitchen data set of everyday manipulation activities for motion tracking and action recognition},
+booktitle={IEEE International Workshop on Tracking Humans for the Evaluation of their Motion in Image Sequences in conjunction with ICCV2009},
+year={2009}
+}
+
+@InProceedings{Prediction_Kasteren_2008,
+author={T. van Kasteren and A. Noulas and G. Englebienne and B. Kröse},
+title={Accurate activity recognition in a home setting}, 
+booktitle={Proceedings of the 10th international conference on Ubiquitous computing},
+pages={1-9},
+year={2008}
+}
+
+

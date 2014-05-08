@@ -23,6 +23,47 @@ G.~Bigwood, F.~B. Abdesslem, and T.~Henderson.
 \newblock In {\em First Workshop on recent advances in behavior prediction and
   pro-active pervasive computing}, 2012.
 
+\bibitem{2040}
+Licia Capra and Mirco Musolesi.
+\newblock Autonomic trust prediction for pervasive systems.
+\newblock In {\em AINA '06: Proceedings of the 20th International Conference on
+  Advanced Information Networking and Applications (AINA'06)}, pages 481--488,
+  Washington, DC, USA, 2006. IEEE Computer Society.
+
+\bibitem{5163}
+Sajal~K. Das, Diane~J. Cook, Amiya Bhattacharya, Edwin~O. Heierman, and Tze-Yun
+  Lin.
+\newblock The role of prediction algorithms in the mavhome smart home
+  architecture.
+\newblock {\em IEEE Wireless Commmunications}, December 2002.
+
+\bibitem{2097}
+Nathan Eagle and Alex~Sandy Pentland.
+\newblock Eigenbehaviors: Identifying structure in routine.
+\newblock {\em Behavioral Ecology and Sociobiology}, 63(7):1057--1066, Mai
+  2009.
+
+\bibitem{ContextPrediction_Feki_2007}
+Mohamed~Ali Feki, Sang~Wan Lee, Zeungnam Bien, and Mounir Mokhtari.
+\newblock Context aware life pattern prediction using fuzzy-state q-learning.
+\newblock In Takeshi Okadome, Tatsuya Yamazaki, and Mounir Makhtari, editors,
+  {\em Pervasive Computing for Quality of Life Enhancement}, volume 4541 of
+  {\em Lecture Notes in Computer Science}, pages 188--195. Springer Berlin /
+  Heidelberg, 2007.
+
+\bibitem{6013}
+Karthik Gopalratnam and Diane~J. Cook.
+\newblock Active lezi: An incremental parsing algorithm for sequential
+  prediction.
+\newblock {\em International Journal of Artificial Intelligence Tools},
+  14:917--930, 2004.
+
+\bibitem{ContextAwareness_Gordon_2011}
+Dawud Gordon, Stephan Sigg, Yong Ding, and Michael Beigl.
+\newblock Using prediction to conserve energy in recognition on mobile devices.
+\newblock In {\em Proceedings of the 9th IEEE International Conference on
+  Pervasive Computing and Communications (PerCom2011)}, 2011.
+
 \bibitem{guo_intelligent_2013}
 Hongliang Guo and Alfons~H. Salden.
 \newblock Intelligent control for sustainable energy management in underground
@@ -36,6 +77,13 @@ S.~Intille, K.~Larson, E.~Tapia, J.~Beaudin, P.~Kaushik, J.~Nawyn, and
 \newblock Using a live-in laboratory for ubiquitous computing research.
 \newblock In {\em Lecture Notes in Computer Science}, volume 3968/2006, pages
   349--365, 2006.
+
+\bibitem{5019}
+C.~L. Isbell, Jr, O.~Omojokun, and J.~S. Pierce.
+\newblock From devices to tasks: automatic task prediction for personalised
+  appliance control.
+\newblock In {\em Personal and Ubiquitous Computing}, number~8, pages 146--153,
+  2004.
 
 \bibitem{5035}
 Rene Mayrhofer.
@@ -78,11 +126,32 @@ G.~Ruscher.
 \newblock In {\em First Workshop on recent advances in behavior prediction and
   pro-active pervasive computing}, 2012.
 
+\bibitem{5088}
+A.~Schmidt and M.~Beigl.
+\newblock There is more to context than location: Environment sensing
+  technologies for adaptive mobile user interfaces.
+\newblock In {\em Workshop on Interactive Applications of Mobile Computing
+  (IMC'98)}, 1998.
+
+\bibitem{5830}
+Oliver~C. Schrempf, Uwe~D. Hanebeck, Andreas~J. Schmid., and Heinz W{\"o}rn.
+\newblock A novel approach to proactive human-robot cooperation.
+\newblock In {\em Proceedings of the 2005 IEEE International Workshop on Robot
+  and Human Interactive Communication (ROMAN 2005)}, pages 555--560, Nashville,
+  Tennessee, 2005.
+
 \bibitem{Prediction_Seiter_2012}
 J.~Seiter, O.~Amft, and G.~Troester.
 \newblock Assessing topic models: How to obtain robustness?
 \newblock In {\em First Workshop on recent advances in behavior prediction and
   pro-active pervasive computing}, 2012.
+
+\bibitem{4011}
+Stephan Sigg.
+\newblock {\em Development of a novel context prediction algorithm and analysis
+  of context prediction schemes}.
+\newblock PhD thesis, University of Kassel, Chair for Communication Technology,
+  ComTec, May 2008.
 
 \bibitem{4027}
 Stephan Sigg, Dawud Gordon, Georg~von Zengen, Michael Beigl, Sandra Haseloff,
@@ -91,6 +160,12 @@ Stephan Sigg, Dawud Gordon, Georg~von Zengen, Michael Beigl, Sandra Haseloff,
   abstraction levels.
 \newblock {\em IEEE Transactions on Mobile Computing}, 11(6):1047 --1059, june
   2012.
+
+\bibitem{4026}
+Stephan Sigg, Sandra Haseloff, and Klaus David.
+\newblock An alignment approach for context prediction tasks in ubicomp
+  environments.
+\newblock {\em IEEE Pervasive Computing}, Oct-Dec 2010, 2010.
 
 \bibitem{Prediction_Tenorth_2009}
 M.~Tenorth, J.~Bandouch, and M.~Beetz.

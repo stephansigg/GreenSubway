@@ -3,50 +3,57 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: GreenSubway.aux
 The style file: plain.bst
 Database file #1: literaturGreenSubway.bib.bib
-Repeated entry---line 78 of file literaturGreenSubway.bib.bib
+Warning--string name "august" is undefined
+--line 75 of file literaturGreenSubway.bib.bib
+Repeated entry---line 141 of file literaturGreenSubway.bib.bib
  : @inproceedings{ 5010
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 188 of file literaturGreenSubway.bib.bib
+ : @phdthesis{ 5001
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in TMB
-You've used 19 entries,
+Warning--there's a number but no series in 5019
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            604 strings with 7955 characters,
-and the built_in function-call counts, 6805 in all, are:
-= -- 601
-> -- 355
-< -- 9
-+ -- 140
-- -- 118
-* -- 439
-:= -- 1086
-add.period$ -- 56
-call.type$ -- 19
-change.case$ -- 110
+            672 strings with 10373 characters,
+and the built_in function-call counts, 11005 in all, are:
+= -- 1014
+> -- 563
+< -- 15
++ -- 223
+- -- 187
+* -- 728
+:= -- 1759
+add.period$ -- 91
+call.type$ -- 30
+change.case$ -- 175
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 299
-empty$ -- 583
-format.name$ -- 118
-if$ -- 1480
+cite$ -- 32
+duplicate$ -- 472
+empty$ -- 904
+format.name$ -- 187
+if$ -- 2381
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 17
-newline$ -- 96
-num.names$ -- 40
-pop$ -- 164
+int.to.str$ -- 30
+missing$ -- 27
+newline$ -- 151
+num.names$ -- 64
+pop$ -- 239
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 148
 quote$ -- 0
-skip$ -- 212
+skip$ -- 339
 stack$ -- 0
-substring$ -- 283
-swap$ -- 87
-text.length$ -- 9
+substring$ -- 521
+swap$ -- 140
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 1
-while$ -- 54
-width$ -- 21
-write$ -- 199
-(There was 1 error message)
+type$ -- 120
+warning$ -- 2
+while$ -- 92
+width$ -- 32
+write$ -- 323
+(There were 2 error messages)
