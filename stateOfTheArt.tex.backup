@@ -2,28 +2,52 @@
 \label{sec:stateOfTheArt}
 
 Context prediction breaks the border from reaction on past and present stimuli to proactive anticipation of actions. 
-Initiated by the pioneering work ofMayrhofer et al.~\cite{5013}, researchers have for about one decade now considered the prediction of context to enable pro-active context computing. 
+Initiated by the pioneering work of Mayrhofer et al.~\cite{5013}, researchers have for about one decade now considered the prediction of context to enable pro-active context computing. 
 Research directions spread from applications for context prediction~\cite{5035} over event prediction~\cite{5071}, architectures for context prediction~\cite{5001,5010,4027}, data formats~\cite{Prediction_Bannach_2010} and algorithms~\cite{Prediction_Intille_2006}. 
-Recent work focuses on three main challenges:
-\begin{enumerate}
-\item Prediction mostly limited to location
-\item No benchmarks and common data sets
-\item No common development framework
-\end{enumerate}
-While there have been contributions targeting some of these challenges, we still see them as unsolved and in the following will further elaborate on these challenges.
-First, several authors have studied aspects of future context with the aim of enabling proactive behaviour in applications. 
+% Recent work focuses on three main challenges that
+% \begin{enumerate}
+% \item prediction is mostly limited to location
+% \item no benchmarks and common data sets exist  
+% \item no common development framework exists
+% \end{enumerate}
+% While there have been contributions targeting some of these challenges, we still see them as unsolved and in the following will further elaborate on these challenges.
+Several authors have studied aspects of future context with the aim of enabling proactive behaviour in applications. 
 Applications considered are diverse and range across basically all aspects of daily life. 
 Still, the survey of Voigtmann and David shows that a great share of context prediction research so far concentrates on location prediction~\cite{Prediction_Voigtmann_2012}. 
-Recently the research on location prediction tends to focus on new approaches for indoor location, e.g.~\cite{Prediction_Ruscher_2012,} [Ruscher et. al, Murao et al.] and the use of social networks as data source [Zhang]. 
+Recently the research on location prediction tends to focus on new approaches for indoor location, e.g.~\cite{Prediction_Ruscher_2012,Prediction_Murao_2012} and the use of social networks as data source~\cite{Prediction_Zhang_2012}. 
+However, although frequently criticised~\cite{5088}, most work on context prediction focuses location prediction.
+Notable exceptions are considering, for instance, prediction to reduce energy consumption in sensor nodes by powering only those components that are likely needed in the near future~\cite{ContextAwareness_Gordon_2011}, prediction for the comptation of trust in other pervasive devices~\cite{2040} or also the prediction of tasks a user likely engage in next in order to adapt the user interface over several devices properly~\cite{5019}.
+Further exmamples are the prediction of user intention in order to proactively plan tasks of a robot the human is interacting with~\cite{5830} and the popular smart home use-case in which mobility patterns and device usage of inhabitants are predicted~\cite{5163}.
+
+Regarding algorithms for context prediction, diverse approaches from various fields spanning, for instance, time-series forecasting or pattern matching have been applied. 
+Prominent examples for context prediction techniques are Markov predictors \cite{6013}, SOM prediction methods \cite{6016,5001}, the state predictor method \cite{5027,5001}, neural network approaches \cite{5027,2026}, Bayesian networks \cite{5027}, prediction based on the principal component analysis \cite{2097}, ARMA predictors \cite{5001} as well as Kalman filter methods \cite{2040}, Fuzzy-State Q-Learning~\cite{ContextPrediction_Feki_2007} or alignment-based prediction~\cite{4026}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Continue from here: discuss architectures~\cite{4011,5001,5010}, differentiate context prediction from anticipatory sensing, applications:  also browse last awarecast workshops}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 We see a great potential for the use of context prediction in applications to enable sustainability, e.g. applications for energy efficiency. 
 An important building block for this is the prediction of user preferences. 
-Since preference settings in many applications tend to be complicated and have important implications, for example on the user’s privacy, predicting the user’s preferences was shown to solve the problem of too lax preference settings [Bigwood et. al]. 
-Also, important to enable applications for sustainability and energy efficiency, is the prediction of user routine, e.g. [Seiter et. al].    
+Since preference settings in many applications tend to be complicated and have important implications, for example on the user's privacy, predicting the user's preferences was shown to solve the problem of too lax preference settings~\cite{Prediction_Bigwood_2012}. 
+Also, important to enable applications for sustainability and energy efficiency, is the prediction of user routine, e.g.~\cite{Prediction_Seiter_2012}.    
 
 Secondly, regarding missing benchmarks and data sets, although utilized by numerous algorithms, a comprehensive comparison of their strengths and weaknesses on benchmark data sets is yet missing. 
-To raise context prediction to a professional level at which it might be integrated in commercial applications, we need to establish common, widely accepted data sets, develop and disseminate accepted benchmarks and provide more general description of algorithmic performance not only restricted to specific applications but to a whole class of applications utilising input data with similar properties.  
-One promising approach is to utilize data that users share over social networks [Zhang].
+To raise context prediction to a professional level at which it might be integrated in commercial applications, we need to establish common, widely accepted data sets, develop and disseminate accepted benchmarks and provide more general description of algorithmic performance not only restricted to specific applications but to a whole class of applications utilising input data with similar properties. 
+One promising approach is to utilize data that users share over social networks~\cite{Prediction_Zhang_2012}.
 
-And last, although, several authors have considered architectures for context prediction [4, 6], a common methodology or platform has not yet crystallised. 
+And last, although, several authors have considered architectures for context prediction~\cite{5001,4027,5010}, a common methodology or platform has not yet crystallised. 
 Application developers are forced to start from scratch. One reason for this is that previous authors seldom provided usable sources of their applications that could be extended. 
 In order to foster the integration of context prediction into applications, support for application developers has to be greatly improved. 
+
+%% TODO: Add further literature and story
+%% TODO: Add Awarecast 2013 papers.
+%% TODO: Include also:
+\cite{Prediction_Kasteren_2008,Prediction_Tenorth_2009}

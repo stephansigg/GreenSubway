@@ -106,6 +106,12 @@ Rene~Michael Mayrhofer, Harald Radi, and Alois Ferscha.
 \newblock In {\em The International Conference On Advances in Mobile Multimedia
   (MoMM2003)}, volume 171, pages 25--35, September 2003.
 
+\bibitem{2026}
+M.~C. Mozer.
+\newblock Neural net architectures for temporal sequence processing.
+\newblock In A.~S. Weigend and N.~A. Gershenfeld, editors, {\em Predicting the
+  Future Understanding the Past}. Addison Wesley, 1994.
+
 \bibitem{Prediction_Murao_2012}
 K.~Murao, T.~Terada, A.~Yano, and R.~Matsukura.
 \newblock Detecting room-to-room movement by passive infrared sensors in home
@@ -118,6 +124,12 @@ P.~Nurmi, M.~Martin, and J.~A. Flanagan.
 \newblock Enabling proactiveness through context prediction.
 \newblock In {\em CAPS 2005, Workshop on Context Awareness for Proactive
   Systems}, June 2005.
+
+\bibitem{5027}
+J.~Petzold, A.~Pietzowski, F.~Bagci, W.~Trumler, and Theo Ungerer.
+\newblock Prediction of indoor movements using bayesian networks.
+\newblock In {\em First International Workshop on Location- and
+  Context-Awareness (LoCA 2005)}, May 2005.
 
 \bibitem{Prediction_Ruscher_2012}
 G.~Ruscher.
@@ -166,6 +178,12 @@ Stephan Sigg, Sandra Haseloff, and Klaus David.
 \newblock An alignment approach for context prediction tasks in ubicomp
   environments.
 \newblock {\em IEEE Pervasive Computing}, Oct-Dec 2010, 2010.
+
+\bibitem{6016}
+G.~Simon, A.~Lendasse, M.~Cottrell, J.-C. Fort, and M.~Verleysen.
+\newblock Time series forecasting: Obtaining long term trends with
+  self-organising maps.
+\newblock {\em Pattern Recognition Letters}, 26(12):1795--1808, September 2005.
 
 \bibitem{Prediction_Tenorth_2009}
 M.~Tenorth, J.~Bandouch, and M.~Beetz.

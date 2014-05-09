@@ -5,55 +5,55 @@ The style file: plain.bst
 Database file #1: literaturGreenSubway.bib.bib
 Warning--string name "august" is undefined
 --line 75 of file literaturGreenSubway.bib.bib
-Repeated entry---line 141 of file literaturGreenSubway.bib.bib
+Repeated entry---line 170 of file literaturGreenSubway.bib.bib
  : @inproceedings{ 5010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 188 of file literaturGreenSubway.bib.bib
+Repeated entry---line 217 of file literaturGreenSubway.bib.bib
  : @phdthesis{ 5001
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in TMB
 Warning--there's a number but no series in 5019
-You've used 30 entries,
+You've used 33 entries,
             2118 wiz_defined-function locations,
-            672 strings with 10373 characters,
-and the built_in function-call counts, 11005 in all, are:
-= -- 1014
-> -- 563
+            690 strings with 10942 characters,
+and the built_in function-call counts, 12110 in all, are:
+= -- 1112
+> -- 634
 < -- 15
-+ -- 223
-- -- 187
-* -- 728
-:= -- 1759
-add.period$ -- 91
-call.type$ -- 30
-change.case$ -- 175
++ -- 250
+- -- 211
+* -- 814
+:= -- 1949
+add.period$ -- 101
+call.type$ -- 33
+change.case$ -- 195
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 472
-empty$ -- 904
-format.name$ -- 187
-if$ -- 2381
+cite$ -- 35
+duplicate$ -- 511
+empty$ -- 990
+format.name$ -- 211
+if$ -- 2606
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 27
-newline$ -- 151
-num.names$ -- 64
-pop$ -- 239
+int.to.str$ -- 33
+missing$ -- 30
+newline$ -- 166
+num.names$ -- 72
+pop$ -- 264
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 165
 quote$ -- 0
-skip$ -- 339
+skip$ -- 360
 stack$ -- 0
-substring$ -- 521
-swap$ -- 140
+substring$ -- 567
+swap$ -- 145
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 132
 warning$ -- 2
-while$ -- 92
-width$ -- 32
-write$ -- 323
+while$ -- 101
+width$ -- 35
+write$ -- 355
 (There were 2 error messages)
