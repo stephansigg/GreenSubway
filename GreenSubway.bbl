@@ -3,6 +3,12 @@
 \bibitem{TMB}
 
 
+\bibitem{Prediction_Alvarez_2013}
+Jorge Alvarez-Lozano, J~Antonio Garc{\'\i}a-Mac{\'\i}as, and Edgar Ch{\'a}vez.
+\newblock Learning and user adaptation in location forecasting.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 461--470. ACM, 2013.
+
 \bibitem{anderson_maximizing_2009}
 Richard Anderson, Rory Maxwell, and Nigel~G. Harris.
 \newblock Maximizing the potential for metros to reduce energy consumption and
@@ -30,6 +36,13 @@ Licia Capra and Mirco Musolesi.
   Advanced Information Networking and Applications (AINA'06)}, pages 481--488,
   Washington, DC, USA, 2006. IEEE Computer Society.
 
+\bibitem{Prediction_Caruso_2013}
+Mario Caruso, {\c{C}}a{\u{g}}ri Ilban, Francesco Leotta, Massimo Mecella, and
+  Stavros Vassos.
+\newblock Synthesizing daily life logs through gaming and simulation.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 451--460. ACM, 2013.
+
 \bibitem{5163}
 Sajal~K. Das, Diane~J. Cook, Amiya Bhattacharya, Edwin~O. Heierman, and Tze-Yun
   Lin.
@@ -37,11 +50,24 @@ Sajal~K. Das, Diane~J. Cook, Amiya Bhattacharya, Edwin~O. Heierman, and Tze-Yun
   architecture.
 \newblock {\em IEEE Wireless Commmunications}, December 2002.
 
+\bibitem{Prediction_2013_David}
+Klaus David, Bernd~Niklas Klein, Sian~Lun Lau, Stephan Sigg, and Brian Ziebart.
+\newblock 2nd workshop on recent advances in behavior prediction and pro-active
+  pervasive computing.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 435--440. ACM, 2013.
+
 \bibitem{2097}
 Nathan Eagle and Alex~Sandy Pentland.
 \newblock Eigenbehaviors: Identifying structure in routine.
 \newblock {\em Behavioral Ecology and Sociobiology}, 63(7):1057--1066, Mai
   2009.
+
+\bibitem{Prediction_Eldaw_2013}
+Muawya Habib~Sarnoub Eldaw, Mark Levene, and George Roussos.
+\newblock Collective suffix tree-based models for location prediction.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 441--450. ACM, 2013.
 
 \bibitem{ContextPrediction_Feki_2007}
 Mohamed~Ali Feki, Sang~Wan Lee, Zeungnam Bien, and Mounir Mokhtari.
@@ -84,6 +110,12 @@ C.~L. Isbell, Jr, O.~Omojokun, and J.~S. Pierce.
   appliance control.
 \newblock In {\em Personal and Ubiquitous Computing}, number~8, pages 146--153,
   2004.
+
+\bibitem{Prediction_Koenig_2013}
+Immanuel K{\"o}nig, Bernd~Niklas Klein, and Klaus David.
+\newblock On the stability of context prediction.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 471--480. ACM, 2013.
 
 \bibitem{5035}
 Rene Mayrhofer.
@@ -218,5 +250,11 @@ R.~Zhang, M.~Chu B.~Price, and A.~Walendowski.
   social network data.
 \newblock In {\em First Workshop on recent advances in behavior prediction and
   pro-active pervasive computing}, 2012.
+
+\bibitem{Prediction_Zhang_2013}
+Ye~Zhang, Le~T Nguyen, and Joy Zhang.
+\newblock Wait time prediction: how to avoid waiting in lines?
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 481--490. ACM, 2013.
 
 \end{thebibliography}

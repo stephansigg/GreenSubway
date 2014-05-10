@@ -5,55 +5,55 @@ The style file: plain.bst
 Database file #1: literaturGreenSubway.bib.bib
 Warning--string name "august" is undefined
 --line 75 of file literaturGreenSubway.bib.bib
-Repeated entry---line 170 of file literaturGreenSubway.bib.bib
+Repeated entry---line 226 of file literaturGreenSubway.bib.bib
  : @inproceedings{ 5010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 217 of file literaturGreenSubway.bib.bib
+Repeated entry---line 273 of file literaturGreenSubway.bib.bib
  : @phdthesis{ 5001
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in TMB
 Warning--there's a number but no series in 5019
-You've used 33 entries,
+You've used 39 entries,
             2118 wiz_defined-function locations,
-            690 strings with 10942 characters,
-and the built_in function-call counts, 12110 in all, are:
-= -- 1112
-> -- 634
-< -- 15
-+ -- 250
-- -- 211
-* -- 814
-:= -- 1949
-add.period$ -- 101
-call.type$ -- 33
-change.case$ -- 195
+            722 strings with 12140 characters,
+and the built_in function-call counts, 15210 in all, are:
+= -- 1444
+> -- 762
+< -- 21
++ -- 300
+- -- 255
+* -- 1010
+:= -- 2393
+add.period$ -- 125
+call.type$ -- 39
+change.case$ -- 235
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 511
-empty$ -- 990
-format.name$ -- 211
-if$ -- 2606
+cite$ -- 41
+duplicate$ -- 649
+empty$ -- 1236
+format.name$ -- 255
+if$ -- 3322
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 30
-newline$ -- 166
-num.names$ -- 72
-pop$ -- 264
+int.to.str$ -- 39
+missing$ -- 36
+newline$ -- 196
+num.names$ -- 84
+pop$ -- 322
 preamble$ -- 1
-purify$ -- 165
+purify$ -- 199
 quote$ -- 0
-skip$ -- 360
+skip$ -- 468
 stack$ -- 0
-substring$ -- 567
-swap$ -- 145
-text.length$ -- 15
+substring$ -- 789
+swap$ -- 211
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 156
 warning$ -- 2
-while$ -- 101
-width$ -- 35
-write$ -- 355
+while$ -- 131
+width$ -- 41
+write$ -- 427
 (There were 2 error messages)
