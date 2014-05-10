@@ -2,8 +2,8 @@
 \label{sec:introduction}
 % Introduce the concept of Anticipatory Sensing here
 Underground transportation systems are big energy consumers and have significant impacts on energy consumptions at a regional scale~\cite{anderson_maximizing_2009}. 
-So far the optimization of the energy efficiency of transportation equipment, the trains, have been considered. 
-However, although a single train requires the biggest share of energy from the overall energy load necessary to run a complete underground system, the investments required for this kind of optimisation are also tremendous. 
+So far, the optimization of the energy efficiency of transportation equipment, the trains, have been considered. 
+However, although a single train is the largest individual consumer of energy from the overall energy load necessary to run a complete underground system, the investments required for this kind of optimisation are also tremendous. 
 Considering the cost and amount of energy that can potentially be saved in different components of an overall underground metro system, it is suggestive to instead intensify the effort towards other directions.   
 In particular, the optimization of the energy efficiency of the metro stations involves much less investments than the ones that are usually applied to transportation means and equipments. 
 Although only a relatively small percentage can be gained with optimal management of a single metro station compared to optimizing trains, the high number of stations in the underground transportation system in total will yield large energy savings in overall terms. 
@@ -19,7 +19,7 @@ In particular, these systems are optimised for peak times and are therefore oper
 A seminal opportunity to optimize the energy efficiency and to realize energy savings is to enable the station to control the surroundings, such as ventilation, vertical transportation and lighting adaptively according to the current situation. 
 For instance, the ventilation-fans of a station could be slowing down when the count of passengers does not necessitate full speed.
 
-In order to achieve such context-aware pro-active behaviour in a metro station, basically three parts are necessary. 
+In order to achieve such context-aware pro-active behaviour in a metro station, basically three parts are required. 
 \begin{enumerate}
  \item[A:] Sensors that are suited to capture the situation over time accurately
  \item[B:] A controller which is able to calculate the appropriate actions.
@@ -28,14 +28,14 @@ In order to achieve such context-aware pro-active behaviour in a metro station, 
 An underground metro system features a high number of sensors (A) that can be employed to realise pro-active operation.
 These cover even the tracking of people movement and count which is easily possible via the prominently installed CCTV surveillance systems.
 Recently, also a controller (B) which is adaptive on the basis of various environmental factors, forecasts and passenger occupancy has been developed~\cite{guo_intelligent_2013}.
-The predictive component (C) is necessary since changes applied to the system component do not take effect immediately but gradually. 
+The predictive component (C) is necessary since changes applied to the system do not immediately take effect. 
 Staying in the above example with the ventilation-fans, it is sufficient for the controller to be aware of the current count of passengers in order to decrease the fan frequency. 
 However, increasing the fan frequency is more complex. 
 Since the increasing of the fan frequency does not have an immediate effect for the air quality, the fan frequency needs to be increased an appropriate time before the station fills again. 
 It is important to note, that such events can typically occur abruptly in an underground metro system. 
-Examples are, for instance, periodic events such as rush hours or the arrival of connecting trains but also rather spontaneous events like sudden strong rain downfall or simply one of the frequent excursion trips from schools where groups of several hundred people suddenly float a station. 
+Examples are, for instance, periodic events such as rush hours or the arrival of connecting trains but also rather spontaneous events like sudden strong rain downfall or simply one of the frequent excursion trips from schools where groups of several hundred people float a station in a short time. 
 
-To guarantee the required air quality on every point in time, the ventilation needs to be controlled in a foreseen manner, that means controlled on the prospective number of passengers in a station.
+To guarantee the required air quality on every point in time, the ventilation needs to be controlled in a foreseen manner, that means based on the prospective number of passengers in a station.
 
 This paper presents the approach of Anticipatory Sensing for the prediction of the number of passengers in a station.
 
