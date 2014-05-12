@@ -1,9 +1,15 @@
-\section{Data Acquisition}
-\label{sec:dataAcquisition}
+\section{Environment}
+\label{sec:Environment}
 
-The prediction is based on occupancy data gathered in a metro station. First some facts regarding the metro station will be given. Subsequently the data acquisition will be explained.
+\subsection{SEAM4US}
+\label{subsec:seam4us}
 
-\subsection{Station}
+% TODO
+The seam4us project...
+
+The prediction is based on occupancy data gathered in a metro station. Following the environment were the research takes place, i.e. the metro station is described more in detail.
+
+\subsection{Underground Station Passeig de Gr\`{a}cia}
 \label{subsec:station}
 
 In this section the "station" is described. First the word "station" in the area of metro networks needs to be defined.
@@ -33,15 +39,19 @@ The line station PdG-L3 consists of several public spaces: halls, transit areas,
   \label{fig:PdG-L3_schematic}
 \end{figure}
 
-The public spaces are equipped with a Closed Circuit Television~(CCTV) for security reasons. The cameras of the CCTV-system provide images which contains the information how many people are on a dedicated time on a dedicated place. To gather these information the images needs to be processed. In the following the processing of the camera images is described in short.
+The public spaces are equipped with a Closed Circuit Television~(CCTV) for security reasons. The cameras of the CCTV-system provide images which contains the information how many people are on a dedicated time on a dedicated place. To gather these information the images needs to be processed. In the following the processing of the CCTV images is described in short.
 
 
 \subsection{Passenger density data}
 \label{subsec:PassengerDensityData}
 
+Whenever the camera pictures are processed the privacy issues are tackled. To ensure the privacy restrictions several actions took place.
+First of all, all CCTV images needed for prediction purposes does not leave the station. To ensure this, the image processing is conducted on a dedicated computer especially bought for this purpose. The PC is located in technical room within the station. The images are just for "on the fly" image processing and are not stored on the PC.
+All information 
+
 Throughout the station a CCTV surveillance system already exists. 22~CCTV~cameras are in place where each camera provides in a circuit design subsequently the images. The images provided by each CCTV-camera are stored on a video recorder. A crowd density estimator processes the images and returns the number of passengers on this image. The number of passenger as well as date, time and the camera-ID are saved in a database.
 
-For different reasons, e.g. bad camera picture or network errors it is possible that the image processing fails. In this case the image processing system returns the error value "-1".
+For different reasons, e.g. bad camera picture or network errors it is possible that the image processing fails. In this case the image processing return the error value "-1".
 
 The process images are not saved for privacy reasons. Figure~\ref{fig:CCTVimageProcessing} depict the processing chain.
 
@@ -55,7 +65,7 @@ The process images are not saved for privacy reasons. Figure~\ref{fig:CCTVimageP
 The CCTV and image processing runs 24~hours, 7~days a week. Each day 31680~datasets are saved to the database. Overall the database contains 90~days of data.
 Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a week. At a more detailed view of a day the service times are visible (Figure~\ref{fig:rawData_day}).
 
-%\onecolumn
+% one column
 \begin{figure*}[tb]
 
   \centering
@@ -75,5 +85,3 @@ Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a we
 
 \end{figure*}
 
-
-This database of passenger density information are the base for the investigations in this paper.

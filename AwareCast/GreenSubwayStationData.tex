@@ -1,0 +1,76 @@
+\documentclass{sig-alternate}
+
+% some more configurations
+\input{config}
+
+\begin{document}
+
+\title{The Foretelling Subway: Environment and Situation}
+
+\numberofauthors{2} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Andreas Jahn and Klaus David\\
+       \affaddr{Kassel University}\\
+       \affaddr{Wilhelmh\"oher Allee 73}\\
+       \affaddr{Kassel, Germany}\\
+       \email{\{andreas.jahn,david\}@uni-kassel.de}
+% 2nd. author
+\alignauthor
+Stephan Sigg and Xiaoming Fu\\
+       \affaddr{Goettingen University}\\
+       \affaddr{Goldschmidtstr. 7}\\
+       \affaddr{G\"ottingen, Germany}\\
+       \email{\{stephan.sigg, fu\}@informatik.uni-goettingen.de}
+% 3rd. author
+% \alignauthor
+% Klaus David\\
+%        \affaddr{Kassel University}\\
+%        \affaddr{Wilhelmh\"oher Allee 73}\\
+%        \affaddr{Kassel, Germany}\\
+%        \email{david@uni-kassel.de}
+}
+
+% Title
+\maketitle
+
+% Abstract
+\begin{abstract}
+In this work we introduce the environment for passenger occupancy prediction
+\end{abstract}
+
+% Introduction
+\input{introduction}
+
+% Test Environment & Station
+\input{station}
+
+% Conlusion
+\input{conclusion}
+
+\let\oldtocsubsection=\tocsubsection
+% Acknowledgements
+\input{acknowledgements}
+
+\balance
+
+% References
+\label{sec:references}
+\bibliography{references.bib}
+\bibliographystyle{plain} %alpha plain
+
+
+\end{document}

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  12 MAY 2014 17:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  12 MAY 2014 16:59
 entering extended mode
  %&-line parsing enabled.
-**GreenSubway.tex
-(./GreenSubway.tex
+**GreenSubwayStationData.tex
+(./GreenSubwayStationData.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, ngerman, german, german-x-2009-06-19, ngerman-x-2009-06-19, loaded.
@@ -335,8 +335,9 @@ File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 (/usr/share/texmf-texlive/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen130
-)) (./GreenSubway.aux)
-\openout1 = `GreenSubway.aux'.
+))
+(./GreenSubwayStationData.aux)
+\openout1 = `GreenSubwayStationData.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -385,28 +386,42 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
- (./GreenSubway.out) (./GreenSubway.out)
+
+(./GreenSubwayStationData.out) (./GreenSubwayStationData.out)
 \@outlinefile=\write3
-\openout3 = `GreenSubway.out'.
+\openout3 = `GreenSubwayStationData.out'.
 
 \AtBeginShipoutBox=\box32
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) (./introduction.tex
+
+LaTeX Warning: Citation `anderson_maximizing_2009' on page \thepage  undefined 
+on input line 4.
+
+
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 10.
+
+
 Overfull \hbox (3.7424pt too wide) in paragraph at lines 22--23
 []\T1/aer/m/n/9 In or-der to achieve such context-aware pro-active be-haviour
  []
+
+
+LaTeX Warning: Citation `guo_intelligent_2013' on page \thepage  undefined on i
+nput line 30.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -415,7 +430,7 @@ Overfull \hbox (3.7424pt too wide) in paragraph at lines 22--23
 
 pdfTeX warning: pdflatex (file ./Figures/AnticipativeSensingSystem2.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/AnticipativeSensingSystem2.pdf, id=69, 878.35654pt x 783.00029pt>
+<Figures/AnticipativeSensingSystem2.pdf, id=40, 878.35654pt x 783.00029pt>
 File: Figures/AnticipativeSensingSystem2.pdf Graphic file (type pdf)
 
 <use Figures/AnticipativeSensingSystem2.pdf>
@@ -425,85 +440,73 @@ Overfull \hbox (4.03705pt too wide) in paragraph at lines 42--48
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./stateOfTheArt.tex
-Overfull \hbox (6.72652pt too wide) in paragraph at lines 29--31
-\T1/aer/m/n/9 the state pre-dic-tor method [[][]25[][], [][]20[][]], neu-ral ne
-t-work ap-proaches
- []
+LaTeX Warning: Citation `4027' on page \thepage  undefined on input line 53.
 
 
-Overfull \hbox (5.68456pt too wide) in paragraph at lines 29--31
-\T1/aer/m/n/9 well as Kalman fil-ter meth-ods [[][]6[][]], Fuzzy-State Q-Learni
-ng [[][]12[][]]
- []
+LaTeX Warning: Reference `sec:stateOfTheArt' on page \thepage  undefined on inp
+ut line 58.
+
+
+LaTeX Warning: Reference `sec:dataAcquisition' on page \thepage  undefined on i
+nput line 58.
+
+
+LaTeX Warning: Reference `sec:results' on page \thepage  undefined on input lin
+e 58.
+
+) (./station.tex
+
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 24.
+
+<Figures/PdG-L3_platforms.jpg, id=44, 752.8125pt x 565.11125pt>
+File: Figures/PdG-L3_platforms.jpg Graphic file (type jpg)
+
+<use Figures/PdG-L3_platforms.jpg>
+
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 29.
+
+<Figures/PdG-L3_schematic.jpg, id=46, 1214.5375pt x 693.59125pt>
+File: Figures/PdG-L3_schematic.jpg Graphic file (type jpg)
+
+<use Figures/PdG-L3_schematic.jpg>
+
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 38.
+
+
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 38.
+
+
+Underfull \vbox (badness 5802) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 
-      [2 <./Figures/AnticipativeSensingSystem2.pdf>]) (./dataAcquisition.tex
-<Figures/PdG-L3_platforms.jpg, id=251, 752.8125pt x 565.11125pt>
-File: Figures/PdG-L3_platforms.jpg Graphic file (type jpg)
-
-<use Figures/PdG-L3_platforms.jpg>
-<Figures/PdG-L3_schematic.jpg, id=254, 1214.5375pt x 693.59125pt>
-File: Figures/PdG-L3_schematic.jpg Graphic file (type jpg)
-
-<use Figures/PdG-L3_schematic.jpg>pdfTeX warning (ext4): destination with the s
-ame identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 
-      [3 <./Figures/PdG-L3_platforms.jpg>]
-<Figures/imageProcessing.pdf, id=271, 398.68939pt x 162.6075pt>
+l.45 \subsection
+                {Passenger density data} [2 <./Figures/AnticipativeSensingSyste
+m2.pdf>] <Figures/imageProcessing.pdf, id=149, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
 <use Figures/imageProcessing.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_week.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_week.pdf, id=274, 844.95668pt x 597.43207pt>
+<Figures/rawData_week.pdf, id=152, 844.95668pt x 597.43207pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_day.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_day.pdf, id=275, 844.95668pt x 597.43207pt>
+<Figures/rawData_day.pdf, id=153, 844.95668pt x 597.43207pt>
 File: Figures/rawData_day.pdf Graphic file (type pdf)
 
-<use Figures/rawData_day.pdf>) (./results.tex
-<Figures/alignmentApproach.png, id=278, 633.86812pt x 225.84375pt>
-File: Figures/alignmentApproach.png Graphic file (type png)
+<use Figures/rawData_day.pdf>
 
-<use Figures/alignmentApproach.png>pdfTeX warning (ext4): destination with the 
-same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 
-      [4 <./Figures/PdG-L3_schematic.jpg> <./Figures/imageProcessing.pdf> <./Fi
-gures/alignmentApproach.png>]
-Overfull \hbox (6.51254pt too wide) in paragraph at lines 53--54
-\T1/aer/m/n/9 the ac-tual value match, a per-for-mance mea-sure-ment is needed.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 83.
 
- []
-
-
-Overfull \hbox (1.16824pt too wide) in paragraph at lines 69--71
-[]\T1/aer/m/n/9 Instead the ab-so-lute dif-fer-ence be-tween the pre-dicted num
--
- []
-
-
-Overfull \hbox (5.3346pt too wide) in paragraph at lines 69--71
-\T1/aer/m/n/9 seems to pro-vide a mean-ing-ful mea-sure-ment. A measurement-
- []
-
-) (./conclusion.tex) (./acknowledgements.tex) (./GreenSubway.bbl
+) (./conclusion.tex) (./acknowledgements.tex)
+No file GreenSubwayStationData.bbl.
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -512,48 +515,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
-      [5 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+l.76 \end{document}
+                    [3 <./Figures/PdG-L3_platforms.jpg> <./Figures/PdG-L3_schem
+atic.jpg> <./Figures/imageProcessing.pdf>]pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 
-       [6])
-Overfull \vbox (1.099pt too high) has occurred while \output is active []
+l.76 \end{document}
+                    [4 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>
+] (./GreenSubwayStationData.aux)
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \end{document}
-                    [7] (./GreenSubway.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5834 strings out of 495021
- 80685 string characters out of 1181035
- 171873 words of memory out of 3000000
- 8801 multiletter control sequences out of 15000+50000
- 49529 words of font info for 66 fonts, out of 3000000 for 9000
+ 5711 strings out of 495021
+ 78788 string characters out of 1181035
+ 158008 words of memory out of 3000000
+ 8746 multiletter control sequences out of 15000+50000
+ 45910 words of font info for 62 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,11n,37p,651b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/en
-c/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-bx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/urw
-/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texm
-f-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on GreenSubway.pdf (7 pages, 650382 bytes).
+ 40i,11n,36p,648b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvet
+ic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></u
+sr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texli
+ve/fonts/type1/urw/times/utmr8a.pfb>
+Output written on GreenSubwayStationData.pdf (4 pages, 545401 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
