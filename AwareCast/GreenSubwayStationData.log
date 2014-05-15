@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  12 MAY 2014 16:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  13 MAY 2014 22:23
 entering extended mode
  %&-line parsing enabled.
 **GreenSubwayStationData.tex
@@ -406,104 +406,59 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) (./introduction.tex
-
-LaTeX Warning: Citation `anderson_maximizing_2009' on page \thepage  undefined 
-on input line 4.
-
-
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 10.
-
-
-Overfull \hbox (3.7424pt too wide) in paragraph at lines 22--23
-[]\T1/aer/m/n/9 In or-der to achieve such context-aware pro-active be-haviour
+) (./introduction.tex)
+(./environment.tex
+Overfull \hbox (8.13387pt too wide) in paragraph at lines 8--13
+\T1/aer/m/n/9 tions" (SEAM4US) project in Sev-enth Frame-work Pro-gramme.
  []
 
 
-LaTeX Warning: Citation `guo_intelligent_2013' on page \thepage  undefined on i
-nput line 30.
+Underfull \vbox (badness 6461) has occurred while \output is active []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 
-pdfTeX warning: pdflatex (file ./Figures/AnticipativeSensingSystem2.pdf): PDF i
-nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/AnticipativeSensingSystem2.pdf, id=40, 878.35654pt x 783.00029pt>
-File: Figures/AnticipativeSensingSystem2.pdf Graphic file (type pdf)
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 28.
 
-<use Figures/AnticipativeSensingSystem2.pdf>
-Overfull \hbox (4.03705pt too wide) in paragraph at lines 42--48
-\T1/aer/m/n/9 sens-ing sys-tem, re-cent his-tor-i-cal stim-uli that rep-re-sent
- trends,
- []
-
-
-LaTeX Warning: Citation `4027' on page \thepage  undefined on input line 53.
-
-
-LaTeX Warning: Reference `sec:stateOfTheArt' on page \thepage  undefined on inp
-ut line 58.
-
-
-LaTeX Warning: Reference `sec:dataAcquisition' on page \thepage  undefined on i
-nput line 58.
-
-
-LaTeX Warning: Reference `sec:results' on page \thepage  undefined on input lin
-e 58.
-
-) (./station.tex
-
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 24.
-
-<Figures/PdG-L3_platforms.jpg, id=44, 752.8125pt x 565.11125pt>
+<Figures/PdG-L3_platforms.jpg, id=41, 752.8125pt x 565.11125pt>
 File: Figures/PdG-L3_platforms.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_platforms.jpg>
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 29.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 33.
 
-<Figures/PdG-L3_schematic.jpg, id=46, 1214.5375pt x 693.59125pt>
+<Figures/PdG-L3_schematic.jpg, id=43, 1214.5375pt x 693.59125pt>
 File: Figures/PdG-L3_schematic.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_schematic.jpg>
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 38.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 42.
 
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 38.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 42.
 
-
-Underfull \vbox (badness 5802) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 \subsection
-                {Passenger density data} [2 <./Figures/AnticipativeSensingSyste
-m2.pdf>] <Figures/imageProcessing.pdf, id=149, 398.68939pt x 162.6075pt>
+<Figures/imageProcessing.pdf, id=45, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
 <use Figures/imageProcessing.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_week.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_week.pdf, id=152, 844.95668pt x 597.43207pt>
+<Figures/rawData_week.pdf, id=48, 844.95668pt x 597.43207pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_day.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_day.pdf, id=153, 844.95668pt x 597.43207pt>
+<Figures/rawData_day.pdf, id=49, 844.95668pt x 597.43207pt>
 File: Figures/rawData_day.pdf Graphic file (type pdf)
 
 <use Figures/rawData_day.pdf>
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 83.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 93.
 
 ) (./conclusion.tex) (./acknowledgements.tex)
 No file GreenSubwayStationData.bbl.
@@ -516,35 +471,31 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \end{document}
-                    [3 <./Figures/PdG-L3_platforms.jpg> <./Figures/PdG-L3_schem
+                    [2 <./Figures/PdG-L3_platforms.jpg> <./Figures/PdG-L3_schem
 atic.jpg> <./Figures/imageProcessing.pdf>]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \end{document}
-                    [4 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>
-] (./GreenSubwayStationData.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+                    [3 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>
+] (./GreenSubwayStationData.aux) ) 
 Here is how much of TeX's memory you used:
- 5711 strings out of 495021
- 78788 string characters out of 1181035
- 158008 words of memory out of 3000000
- 8746 multiletter control sequences out of 15000+50000
+ 5698 strings out of 495021
+ 78451 string characters out of 1181035
+ 157907 words of memory out of 3000000
+ 8735 multiletter control sequences out of 15000+50000
  45910 words of font info for 62 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,11n,36p,648b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvet
-ic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></u
-sr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texli
-ve/fonts/type1/urw/times/utmr8a.pfb>
-Output written on GreenSubwayStationData.pdf (4 pages, 545401 bytes).
+ 40i,11n,36p,652b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texm
+f-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
+Output written on GreenSubwayStationData.pdf (3 pages, 389350 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
