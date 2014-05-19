@@ -1,40 +1,105 @@
 \section{Environment}
 \label{sec:environment}
 
-\subsection{SEAM4US}
+Underground transportation systems have significant impacts on energy consumption at a regional scale. While the transportation systems, i.e. trains, has observed regarding energy efficiency, the subsystems of metro stations and surroundings, such as ventilation, escalator and lightning are mostly unexplored.
+
+Although a nominally small percentage of energy can be saved with an efficient management of these subsystems, a large energy saving in absolute terms can be obtained. In other words a 5\% energy saving in non-traction electricity consumption in one year, is equivalent to the electricity consumed in more than 700 households. 
+
+\subsection{SEAM4US project}
 \label{subsec:seam4us}
 
-% TODO rephrase
-Underground transportation systems have significant impacts on energy consumption at a regional scale. While the transportation systems, i.e. has high betrachtung hinsichtlich enery efficence, the subsystems of metro stations and surroundings, such as ventilation, vertical transportation and lightning are ?rarely? unexplored. Although a relatively small percentage of energy can be saved with an efficient management of these subsystems, a large energy saving in absolute terms can be obtained.
-To research in the area of energy efficient surroundings the EU funded the "Sustainable Energy mAnageMent for Underground Stations"~(SEAM4US) project in Seventh Framework Programme.
-"The objective of SEAM4US is to develop advanced technologies for optimal and scalable control of metro stations that will produce a 5\% saving in non-traction electricity consumption in one year, which is equivalent to the electricity consumed in more than 700 households. The project’s main outcomes will be the creation of systems for optimized integrated energy management, and the development of a decision support system to drive mid-term investments." TODO reference
-SEAM4US will integrate additional energy metering and sensor-actuator networks with the existing systems (e.g. surveillance, passenger information and train scheduling)  to acquire grounded user, environmental and scheduling data. The data set will update and enable a set of adaptive energy consumption and environmental models to proactively and optimally control the metro stations.
-The SEAM4US consortium consists of nine partners. A large metro network operator, TMB; a major player in energy-efficient system management sector, COFELY; building and environmental physics and construction experts UNIVPM and UPC, respectively; R+D experts in middleware, FhG FIT and VTT; R+D experts in user and agent-based scheduling modeling, ALMENDE and UNIKASSEL; system integrator, CNET. [TODO quelle angeben ggf. [www.seam4us.eu]
+To research in the area of energy efficient surroundings, the EU funded the "Sustainable Energy mAnageMent for Underground Stations"~(SEAM4US) project in the Seventh Framework Programme.
+The aim of SEAM4US project "is to develop advanced technologies for optimal and scalable control of metro stations [...]. The project's main outcomes will be the creation of systems for optimized integrated energy management, and the development of a decision support system to drive mid-term investments"~\cite{SEAM4US_Website}.
+The integrated energy management is realized by employing passenger density models and thermal models, integrating sensors and control algorithms in a model predictive control architecture~\cite{ansuini_models_2013}. The control architecture proactively controls the metro station surroundings (ventilation, escalator, and lightning) under different occupancy and thermal conditions.
+
+The SEAM4US consortium consists of nine partners from six different EU countries, namely Cofely, UniVPM, UPC, Fraunhofer FIT, VTT, Almende, University of Kassel, CNET and TMB.
+
+Cofely is a major player in energy-efficient system management sector.
+UniVPM and UPC are experts in building and environmental physics and construction.
+Fraunhofer~FIT and VTT support the consortium as R+D experts in middleware.
+Almende and UniKassel research in area of user and agent-based scheduling modeling and CNet supports as system integrator.
+The large metro network operator Transports Metropolitans de Barcelona~(TMB) supports with its experience with underground systems as well as the model underground station.
+A overview over the SEAM4US consortium is given in Table~\ref{tab:SEAM4USconsotium}.
+
+\begin{table}[htbp]
+  \centering
+  
+    \begin{tabularx}{\columnwidth}{|X|c|}
+	\hline
+    \textbf{Name} & \textbf{Country} \\
+	\hline
+    Cofely Italia Spa & Italy \\
+	\hline
+    Universita Politecnica Delle Marche & Italy \\
+	\hline
+    Universitat Politecnica De Catalunya & Spain \\
+	\hline
+    Fraunhofer-Gesellschaft Zur Foerderung Der Angewandten Forschung E.V & Germany \\
+	\hline
+    Teknologian Tutkimuskeskus VTT & Finland \\
+	\hline
+    Universitaet Kassel & Germany \\
+	\hline
+    Almende B.V. & Netherlands \\
+    	\hline
+    CNet Svenska AB & Sweden \\
+    	\hline
+    	Ferrocarril Metropolita De Barcelona Sa & Spain \\
+	\hline
+    \end{tabularx}%
+    
+  \caption{SEAM4US consortium}%
+  \label{tab:SEAM4USconsotium}%
+\end{table}%
 
 
-\subsection{Underground Station Passeig de Gr\`{a}cia}
+\subsection{Metro Station "Passeig de Gr\`{a}cia"}
 \label{subsec:station}
 
-The implementation of the developed advanced technologies is done in one of the stations of the partner TMB in Barcelona.
-This section describes the "station" in detail. First the word "station" in the area of metro networks needs to be defined.
+%TODO http://www.tmb.cat/en/detall-linia-metro/-/linia/L3/327
 
-A metro network is composed by one or more metro lines. Each line has a fixed railway with a given number of stops to allow people to get on or off the trains by means of a platform: each of these stops is called "line station". A "metro station" is the concept that represents the point in space through which a passenger gets underground and into a line station. Metro station and line station can be the same physical entity, but it is possible that there are some "metro stations" that receive two or more "metro lines" in different platforms, and have therefore, two or more "line stations" within.
+%TODO
+The implementation of the developed technologies is done in one of the stations of the partner TMB in Barcelona.
+To validate the system, it is installed in a underground station in Barcelona.
+This section describes the "station" in detail, while the word "station" in the area of metro networks needs to be defined first.
 
-The data, used in this work, are gathered in line station in Passeig de Gr\`{a}cia - Line~3~(PdG-L3) in Barcelona. Passeig de Gr\`{a}cia~(PdG) is a station in the metro network of "Transports Metropolitans de Barcelona"~(TMB) and lies in a very iconic and touristic part of Barcelona. Some of the most popular buildings designed by Antoni Gaudi are in the proximity (Casa Batll\`{o}, Casa Mil\`{a}), as well as the city's most renown and exclusive boutiques.
-The metro station is a historic icon of the Barcelona metro network. First opened in December of 1924, as a (line) station for Line~3, nowadays PdG holds three different line stations: L2, L3, and L4. The stations were built in three different periods and using different construction technologies in each of the premises (contemporary to the building periods). All line stations station has been refurbished a few times since 1924 and new equipment has been added recently.
+Starting high level, a metro network is composed by one or more metro lines. Each line has a fixed railway with a given number of stops to allow people to get on or off the trains by means of a platform: each of these stops is called "line station". A "metro station" is the concept that represents the point in space through which a passenger gets underground and into a line station. Metro station and line station can be the same physical entity, but it is possible that there are some "metro stations" that receive two or more "metro lines" in different platforms, and have therefore, two or more "line stations" within.
 
-Depending on the weekday PdG is open 19~hours, 21~hours or 24~hours. Between Monday and Thursday PdG service starts at 5:00 and ends at 24:00 (19~hours). Friday service starts at 5:00 and ends at 2:00 (21~hours). On Saturday service starts at 5:00 to but remain the entire night until midnight on Sunday.
-
-Passeig~de~Gr\`{a}cia - Line~3~(PdG-L3) turns out to be representative for many station within TMBs metro network~\cite{TMB}. Moreover PdG-L3 is a crowded station which have low-rate usage hours as well. This provides a wide range of data which allows to test with very busy peak hours as well as with off-peaks. Figure~\ref{fig:PdG-L3_platforms} depicts the platforms of PdG-L3.
+The data, used in this work, are gathered in line station in Passeig de Gr\`{a}cia - Line~3~(PdG-L3) located in Barcelona. Passeig de Gr\`{a}cia~(PdG) is a station in the metro network of "Transports Metropolitans de Barcelona"~(TMB) and lies in a very iconic and touristic part of Barcelona. Some of the popular buildings designed by Antoni Gaud\'{i} are in the proximity (Casa Batll\`{o}, Casa Mil\`{a}), as well as the city's most renown and exclusive boutiques.
+The metro station is one of the oldest of the Barcelona metro network. First opened in December of 1924, as a (line) station for Line~3, nowadays PdG holds three different line stations: L2, L3, and L4. The stations were built in three different periods and using different construction technologies. All line stations has been refurbished a few times since 1924 and new equipment has been added recently.
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=\linewidth]{Figures/PdG-L3_platforms.jpg} 
-  \caption{PdG-L3 Plattforms. \cite{TMB}}
+  \includegraphics[width=\linewidth]{Figures/PdG-L3_entranceExit.jpg} 
+  \caption{PdG Entrance/Exit Gran Via. \cite{TMB_2014}}
+  \label{fig:PdG_entranceExit}
+\end{figure}
+
+Depending on the weekday PdG is open 19~hours, 21~hours or 24~hours. Between Monday and Thursday PdG service starts at 5:00 and ends at 24:00 (19~hours). Friday service starts at 5:00 and ends at 2:00 (21~hours). On Saturday service starts at 5:00 to but remain the entire night until midnight on Sunday.
+
+Passeig~de~Gr\`{a}cia - Line~3~(PdG-L3) turns out to be representative for many station within TMBs metro network~\cite{TMB}. Moreover PdG-L3 is a crowded station which have low-rate usage hours as well. This provides a wide range of data which allows to test with very busy peak hours as well as with off-peaks.
+
+The line station PdG-L3 consists of private (staff only) and public spaces. Private spaces such as technical rooms or staff dependencies are not part of the investigation. Public spaces, such as halls, transit areas, accesses to the platforms, and platforms are however in the focus on the SEAM4US project.
+
+Essential part of underground line stations are the platforms, which allow passengers to leave and enter trains. PdG-L3 laid out on a PRRP (Platform-Rail-Rail-Platform) schema. The platforms in PdG-L3 are visible on Figure~\ref{fig:PdG-L3_platforms}.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/PdG-L3_platform.jpg} 
+  \caption{PdG-L3 Plattforms. \cite{TMB_2014}}
   \label{fig:PdG-L3_platforms}
 \end{figure}
 
-The line station PdG-L3 consists of several public spaces: halls, transit areas, accesses to the platforms, and platforms. Furthermore there are private spaces such as technical rooms or staff dependencies. The private spaces are not part of the investigation in this work. Figure~\ref{fig:PdG-L3_schematic} depicts the line station schematic where the accesses to platforms are highlighted in red.
+
+% Escalator image
+%\begin{figure}[htb]
+%  \centering
+%  \includegraphics[width=\linewidth]{Figures/PdG-L3_escalator.jpg} 
+%  \caption{PdG-L3 Escalator. \cite{TMB_2014}}
+%  \label{fig:PdG-L3_escalator}
+%\end{figure}
+
+A schematic representation of PdG-L3 is drawn in Figure~\ref{fig:PdG-L3_schematic}, where the accesses to platforms are highlighted in red.
 
 \begin{figure}[htb]
   \centering
@@ -43,27 +108,52 @@ The line station PdG-L3 consists of several public spaces: halls, transit areas,
   \label{fig:PdG-L3_schematic}
 \end{figure}
 
-The public spaces are equipped with a Closed Circuit Television~(CCTV) for security reasons. The cameras of the CCTV-system provide images which contains the information how many people are on a dedicated time on a dedicated place. To gather these information the images are processed. In the following the CCTV system and the  images processing is described briefly.
+The passenger density models, as one part of the predictive controller, is based on existing CCTV cameras enhanced with image processing to detect current levels of passenger density. In the following section the CCTV~system and the images processing is described briefly.
 
 
-\subsection{Passenger density data}
-\label{subsec:PassengerDensityData}
+\subsection{Passenger density level detection}
+\label{subsec:PassengerDensityLevelExtraction}
 
-Throughout the station a CCTV surveillance system is installed. 20~CCTV~cameras provides images mainly for security reasons.
+Throughout the station a Closed Circuit Television~(CCTV) surveillance system is installed. 20~CCTV~cameras provides images initially for security reasons. Figure~\ref{fig:PdG-L3_CCTVcameras} show exemplary CCTV cameras in a transit area~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}) as well as on the platform~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}).
 
-We are using this system for the prediction of the number of passenger. There we gather from each camera how many people are visible.
+\begin{figure*}[htb]
 
-Due to technical restriction a circuit design was implemented, meaning that the cameras provide subsequently the images. The circuit hold on each camera for 3  seconds. Consequently the in one minute one turn is conducted and the circuit starts with the first camera again.
+  \centering
 
-Whenever camera pictures are processed the privacy issues are tackled. To ensure the privacy restrictions several actions took place.
-First of all, all CCTV images needed for prediction purposes does not leave the station. To ensure this, the image processing is conducted on a dedicated computer especially bought for this purpose. The computer is located in a technical room within the station.
-The images received on the computer are processed "on the fly" and thus not saved.
-The first data which leaves the station are information five values: date, time, cameraID and number of passenger. These values are stored in the database.
+  \subfigure[CCTV camera installed in a PdG transit area. \cite{TMB_2014}] {
+    \includegraphics[width=0.46\textwidth]{Figures/PdG-L3_CCTVcamera_transitArea.jpg}
+    \label{fig:PdG-L3_CCTVcamera_transitArea}
+  }
+  \hfill
+  \subfigure[CCTV camera installed in PdG-L3 platform. \cite{TMB_2014}] {
+    \includegraphics[width=0.46\textwidth]{Figures/PdG-L3_CCTVcamera_platform.jpg}
+    \label{fig:PdG-L3_CCTVcamera_platform}
+  }
 
- The images provided by each CCTV-camera are stored on a video recorder. A crowd density estimator processes the images and returns the number of passengers on this image. The number of passenger as well as date, time and the camera-ID are saved in a database.
+  \caption{Passenger density distribution of one CCTV camera in PdG-L3.}
+  \label{fig:PdG-L3_CCTVcameras}
 
+\end{figure*}
+
+
+The CCTV~system is reused in order to extract the passenger density within the station.
+
+Whenever camera pictures are processed the privacy issues are tackled. In order to ensure the passengers privacy several actions took place:
+\begin{enumerate}
+  \item For the purpose of level of passenger density extraction no CCTV image is saved.
+  \item All CCTV images are processed within the station.
+  \item The image processing is performed on a separate computer, which is not connected to other TMB Systems and is only accessible via a dedicated VPN connection.
+  \item The image data are filtered to avoid recognisability of individuals.
+  \item Processing results are transmitting only in terms of integer numbers to the database.
+\end{enumerate}
+
+Due to technical restriction a circuit design was implemented, meaning that the cameras provide subsequently the images. The circuit hold on each camera for 3~seconds and then steps to the next camera, holding for 3~seconds again. One turn of the circuit is completed in about one minute and starts the next turn with the first camera.
+
+For each camera, the provided image is stored on a video recorder within the station. The recorder forwards the images to the image processing PC. The density estimator processes the images by first separating the background and foreground. The foreground gives the number of passenger based on trained data.
 For different reasons, e.g. bad camera picture, it is possible that the image processing fails. In this case the image processing return the error value "-1".
-Figure~\ref{fig:CCTVimageProcessing} depict the processing chain.
+The results transmitted to a three~dimensional database, which holds information about the number of passenger, the location and the time.
+
+The passenger density level as well as date, time and the camera-ID of the image are transmitted to the database. The general approach is depicted in Figure~\ref{fig:CCTVimageProcessing}.
 
 \begin{figure}[htb]
   \centering
@@ -72,11 +162,15 @@ Figure~\ref{fig:CCTVimageProcessing} depict the processing chain.
   \label{fig:CCTVimageProcessing}
 \end{figure}
 
-The CCTV and image processing runs 24~hours, 7~days a week. Each day 31680~datasets are saved to the database. Overall the database contains 90~days of data.
-Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a week. At a more detailed view of a day the service times are visible (Figure~\ref{fig:rawData_day}).
+The CCTV and image processing runs 24~hours, 7~days a week. Each day 28800~datasets are transmitted to the database. Overall the database contains 90~days of data.
+
+\subsection{Passenger density level}
+\label{subsec:PassengerDensityLevel}
+
+Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a camera and week. At a more detailed view Figure~\ref{fig:rawData_day} shows the passenger density level of a camera and (week)day. On both Figures the PdG service times are visible due to the low passenger density level between 1am and 5am on weekdays.
 
 % one column
-\begin{figure*}[tb]
+\begin{figure*}[htb]
 
   \centering
 
@@ -90,8 +184,10 @@ Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a we
     \label{fig:rawData_day}
   }
 
-  \caption{Passenger density distribution of one camera.~\cite{TMB}.}
+  \caption{Passenger density distribution of one CCTV camera in PdG-L3.}
   \label{fig:rawData}
 
 \end{figure*}
+
+% two columns
 
