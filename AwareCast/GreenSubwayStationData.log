@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  19 MAY 2014 17:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  20 MAY 2014 16:30
 entering extended mode
  %&-line parsing enabled.
 **GreenSubwayStationData.tex
@@ -475,33 +475,37 @@ File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 <Figures/PdG-L3_CCTVcamera_platform.jpg, id=67, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
-<use Figures/PdG-L3_CCTVcamera_platform.jpg>pdfTeX warning (ext4): destination 
-with the same identifier (name{page.}) has been already used, duplicate ignored
+<use Figures/PdG-L3_CCTVcamera_platform.jpg>
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147   \item P
-               rocessing results are transmitting only in terms of integer n...
-[2 <./Figures/PdG-L3_entranceExit.jpg> <./Figures/PdG-L3_platform.jpg> <./Figur
-es/PdG-L3_schematic.jpg>]
-<Figures/imageProcessing.pdf, id=82, 398.68939pt x 162.6075pt>
+l.146   \item T
+               he image processing works without human interaction. [2 <./Figur
+es/PdG-L3_entranceExit.jpg> <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_s
+chematic.jpg>]
+Overfull \hbox (13.07431pt too wide) in paragraph at lines 165--166
+\T1/aer/m/n/9 and the camera-ID of the im-age are trans-mit-ted to the database
+.
+ []
+
+<Figures/imageProcessing.pdf, id=81, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
 <use Figures/imageProcessing.pdf>
-Underfull \vbox (badness 2418) has occurred while \output is active []
-
-
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_week.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_week.pdf, id=85, 844.95668pt x 597.43207pt>
+<Figures/rawData_week.pdf, id=84, 844.95668pt x 597.43207pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_day.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_day.pdf, id=86, 844.95668pt x 597.43207pt>
+<Figures/rawData_day.pdf, id=85, 844.95668pt x 597.43207pt>
 File: Figures/rawData_day.pdf Graphic file (type pdf)
 
 <use Figures/rawData_day.pdf>) (./conclusion.tex) (./acknowledgements.tex)
@@ -509,7 +513,7 @@ File: Figures/rawData_day.pdf Graphic file (type pdf)
 LaTeX Font Info:    Try loading font information for T1+aett on input line 5.
  (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-))
+)
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -518,24 +522,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \end{document}
-                    [3 <./Figures/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures
-/PdG-L3_CCTVcamera_platform.jpg> <./Figures/imageProcessing.pdf>]pdfTeX warning
- (ext4): destination with the same identifier (name{page.}) has been already us
-ed, duplicate ignored
+l.8 \bibitem{ansuini_models_2013}
+                                  [3 <./Figures/PdG-L3_CCTVcamera_transitArea.j
+pg> <./Figures/PdG-L3_CCTVcamera_platform.jpg> <./Figures/imageProcessing.pdf>]
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 \end{document}
                     [4 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>
 ] (./GreenSubwayStationData.aux) ) 
 Here is how much of TeX's memory you used:
- 5836 strings out of 495021
- 80677 string characters out of 1181035
+ 5837 strings out of 495021
+ 80682 string characters out of 1181035
  161930 words of memory out of 3000000
  8842 multiletter control sequences out of 15000+50000
  46398 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,11n,37p,673b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,37p,673b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/bas
 e/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texm
@@ -543,9 +547,9 @@ f-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/hel
 vetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
-Output written on GreenSubwayStationData.pdf (4 pages, 8918294 bytes).
+Output written on GreenSubwayStationData.pdf (4 pages, 8919249 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

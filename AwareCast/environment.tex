@@ -112,7 +112,7 @@ The passenger density models, as one part of the predictive controller, is based
 
 
 \subsection{Passenger density level detection}
-\label{subsec:PassengerDensityLevelExtraction}
+\label{subsec:PassengerDensityLevelDetection}
 
 Throughout the station a Closed Circuit Television~(CCTV) surveillance system is installed. 20~CCTV~cameras provides images initially for security reasons. Figure~\ref{fig:PdG-L3_CCTVcameras} show exemplary CCTV cameras in a transit area~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}) as well as on the platform~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}).
 
@@ -138,22 +138,31 @@ Throughout the station a Closed Circuit Television~(CCTV) surveillance system is
 
 The CCTV~system is reused in order to extract the passenger density within the station.
 
-Whenever camera pictures are processed the privacy issues are tackled. In order to ensure the passengers privacy several actions took place:
+Whenever camera pictures are processed privacy issues are tackled. In order to ensure the passengers privacy several design constrained where defined:
 \begin{enumerate}
-  \item For the purpose of level of passenger density extraction no CCTV image is saved.
   \item All CCTV images are processed within the station.
   \item The image processing is performed on a separate computer, which is not connected to other TMB Systems and is only accessible via a dedicated VPN connection.
+    \item All CCTV images are processed "on the fly". For the purpose of level of passenger density extraction no CCTV image is saved.
+  \item The image processing works without human interaction.
   \item The image data are filtered to avoid recognisability of individuals.
   \item Processing results are transmitting only in terms of integer numbers to the database.
 \end{enumerate}
 
-Due to technical restriction a circuit design was implemented, meaning that the cameras provide subsequently the images. The circuit hold on each camera for 3~seconds and then steps to the next camera, holding for 3~seconds again. One turn of the circuit is completed in about one minute and starts the next turn with the first camera.
+With respect to these design constrains the passenger density extraction was implemented. The work flow is described in the following.
 
-For each camera, the provided image is stored on a video recorder within the station. The recorder forwards the images to the image processing PC. The density estimator processes the images by first separating the background and foreground. The foreground gives the number of passenger based on trained data.
-For different reasons, e.g. bad camera picture, it is possible that the image processing fails. In this case the image processing return the error value "-1".
+First, the video streams coming from all cameras are combined into one single video stream by a video recorder. This video recorder creates a carousel video composed of sections for the individual camera appearing in a predefined order. The duration of the camera sections is set to 3~seconds. With 20~cameras and 3~seconds hold on each, one turn of the carousel is completed in about one minute.
+
+%The crowd density estimator uses the Real Time Streaming Protocol (RTSP) to establish and control the video recorder.
+The video recorder is connected to the local computer and transfer the images subsequently. On the local computer the density estimator processes the transferred images.
+
+%TODO
+The crowd density estimator consists of three subcomponents: a) the calibration subcomponent, which sets up several parameters that are needed to make a reliable estimation; b) the computer vision algorithms for crowd density estimation, which is the subcomponent that actually estimates the amount of people focused by each camera; c) the data aggregator, which groups data concerning multiple cameras focused on the same user model zone.
+All parts have been developed using the C++ OpenCV libraries.
+
+For different reasons, e.g. occluded or damaged camera, it is possible that the crowd density estimator fails. In this case the image processing return the error value "-1".
 The results transmitted to a three~dimensional database, which holds information about the number of passenger, the location and the time.
 
-The passenger density level as well as date, time and the camera-ID of the image are transmitted to the database. The general approach is depicted in Figure~\ref{fig:CCTVimageProcessing}.
+Finally the passenger density level as well as date, time and the camera-ID of the image are transmitted to the database. The general approach is depicted in Figure~\ref{fig:CCTVimageProcessing}.
 
 \begin{figure}[htb]
   \centering
