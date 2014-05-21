@@ -19,7 +19,7 @@ UniVPM and UPC are experts in building and environmental physics and constructio
 Fraunhofer~FIT and VTT support the consortium as R+D experts in middleware.
 Almende and UniKassel research in area of user and agent-based scheduling modeling and CNet supports as system integrator.
 The large metro network operator Transports Metropolitans de Barcelona~(TMB) supports with its experience with underground systems as well as the model underground station.
-A overview over the SEAM4US consortium is given in Table~\ref{tab:SEAM4USconsotium}.
+A overview over the SEAM4US consortium is given in Table~\ref{tab:SEAM4USconsortium}.
 
 \begin{table}[htbp]
   \centering
@@ -49,7 +49,7 @@ A overview over the SEAM4US consortium is given in Table~\ref{tab:SEAM4USconsoti
     \end{tabularx}%
     
   \caption{SEAM4US consortium}%
-  \label{tab:SEAM4USconsotium}%
+  \label{tab:SEAM4USconsortium}%
 \end{table}%
 
 
@@ -58,7 +58,6 @@ A overview over the SEAM4US consortium is given in Table~\ref{tab:SEAM4USconsoti
 
 %TODO http://www.tmb.cat/en/detall-linia-metro/-/linia/L3/327
 
-%TODO
 The implementation of the developed technologies is done in one of the stations of the partner TMB in Barcelona.
 To validate the system, it is installed in a underground station in Barcelona.
 This section describes the "station" in detail, while the word "station" in the area of metro networks needs to be defined first.
@@ -152,17 +151,24 @@ With respect to these design constrains the passenger density extraction was imp
 
 First, the video streams coming from all cameras are combined into one single video stream by a video recorder. This video recorder creates a carousel video composed of sections for the individual camera appearing in a predefined order. The duration of the camera sections is set to 3~seconds. With 20~cameras and 3~seconds hold on each, one turn of the carousel is completed in about one minute.
 
-%The crowd density estimator uses the Real Time Streaming Protocol (RTSP) to establish and control the video recorder.
 The video recorder is connected to the local computer and transfer the images subsequently. On the local computer the density estimator processes the transferred images.
 
+The density estimator extracts the passenger density on the image. The image process algorithm is described briefly in the following.
+
 %TODO
-The crowd density estimator consists of three subcomponents: a) the calibration subcomponent, which sets up several parameters that are needed to make a reliable estimation; b) the computer vision algorithms for crowd density estimation, which is the subcomponent that actually estimates the amount of people focused by each camera; c) the data aggregator, which groups data concerning multiple cameras focused on the same user model zone.
-All parts have been developed using the C++ OpenCV libraries.
+The density estimator algorithms use a combination of edge detection and background subtraction. In the  following the algorithm is described briefly.
+
+First the algorithm separates background and foreground. Followed by creating the foreground mask.
+Through filtering the edges of the foreground only are extracted. The foreground edges are combined with the foreground mask. Finally the result is refined by dilating (and then eroding) the segmented the blobs. %TODO reference ?Almende?
+
+%In parallel to the process described above, we detect the edge of the whole image by applying the Canny edge detection on the three RGB channels of the original image; the results acquired the different channels are then combined via a simple logic OR. Eventually, the intersection of this image with the dilated foreground mask  (obtained using a logic AND) allows us to extract the edges of the foreground only (see Figure 13). 
+%"The last step of the crowd density detection algorithm consists in combining this last image with the foreground mask via a logic OR and to refine the result by dilating (and then eroding) the segmented the blobs."  
+%All parts have been developed using the C++ OpenCV libraries.
 
 For different reasons, e.g. occluded or damaged camera, it is possible that the crowd density estimator fails. In this case the image processing return the error value "-1".
-The results transmitted to a three~dimensional database, which holds information about the number of passenger, the location and the time.
 
 Finally the passenger density level as well as date, time and the camera-ID of the image are transmitted to the database. The general approach is depicted in Figure~\ref{fig:CCTVimageProcessing}.
+%The results transmitted to a three~dimensional database, which holds information about the number of passenger, the location and the time.
 
 \begin{figure}[htb]
   \centering
@@ -172,6 +178,7 @@ Finally the passenger density level as well as date, time and the camera-ID of t
 \end{figure}
 
 The CCTV and image processing runs 24~hours, 7~days a week. Each day 28800~datasets are transmitted to the database. Overall the database contains 90~days of data.
+
 
 \subsection{Passenger density level}
 \label{subsec:PassengerDensityLevel}
