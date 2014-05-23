@@ -1,12 +1,5 @@
-\section{Environment}
-\label{sec:environment}
 
-Underground transportation systems have significant impacts on energy consumption at a regional scale. While the transportation systems, i.e. trains, has observed regarding energy efficiency, the subsystems of metro stations and surroundings, such as ventilation, escalator and lightning are mostly unexplored.
-
-Although a nominally small percentage of energy can be saved with an efficient management of these subsystems, a large energy saving in absolute terms can be obtained. In other words a 5\% energy saving in non-traction electricity consumption in one year, is equivalent to the electricity consumed in more than 700 households. 
-
-
-\subsection{SEAM4US project}
+\section{SEAM4US project}
 \label{subsec:seam4us}
 
 To investigate on energy efficient subsystems, the EU funded in the Seventh Framework Programme the project "Sustainable Energy mAnageMent for Underground Stations" (SEAM4US).
@@ -62,8 +55,8 @@ The SEAM4US consortium consists of nine partners from six different EU countries
 %\end{table}%
 
 
-\subsection{Metro Station "Passeig de Gr\`{a}cia"}
-\label{subsec:station}
+\section{Metro Station "Passeig de Gr\`{a}cia"}
+\label{sec:station}
 
 %TODO http://www.tmb.cat/en/detall-linia-metro/-/linia/L3/327
 
@@ -136,8 +129,8 @@ Throughout the station a Closed Circuit Television~(CCTV) surveillance system is
 \end{figure*}
 
 
-\subsection{Passenger density level detection}
-\label{subsec:PassengerDensityLevelDetection}
+\subsection{Passenger density data extraction}
+\label{sec:PassengerDensityDataExtraction}
 
 One part of the predictive controller is the passenger density model. The passenger density model is based on real density seen by the CCTV cameras. Therefore the CCTV~system is reused and enhanced with image processing in order to extract the passenger density within the station. The image processing is described briefly in section.
 
@@ -176,34 +169,4 @@ Finally the extracted passenger density level as well as date, time and the came
 \end{figure}
 
 The CCTV and image processing runs 24~hours, 7~days a week. Each day 28800~datasets are transmitted to the database. Overall the database contains 90~days of data. The available data are discussed in the next section.
-
-
-\section{Passenger density level}
-\label{sec:PassengerDensityLevel}
-
-In order to model the passenger density an understanding of the available data is necessary. In this section the data, visible pattern and other features are discussed.
-
-Figure~\ref{fig:rawData_week} illustrates exemplary the available values of a camera and week. At a more detailed view Figure~\ref{fig:rawData_day} shows the passenger density level of a camera and (week)day. On both Figures the PdG service times are visible due to the low passenger density level between 01:00 and 05:00 on weekdays.
-
-% one column
-\begin{figure*}[htbp]
-
-  \centering
-
-  \subfigure[Passenger density distribution of one camera during one week.] {
-    \includegraphics[width=0.46\textwidth]{Figures/rawData_week.pdf}
-    \label{fig:rawData_week}
-  }
-  \hfill
-  \subfigure[Passenger density distribution of one camera during one day.] {
-    \includegraphics[width=0.46\textwidth]{Figures/rawData_day.pdf}
-    \label{fig:rawData_day}
-  }
-
-  \caption{Passenger density distribution of one CCTV camera in PdG-L3.}
-  \label{fig:rawData}
-
-\end{figure*}
-
-% two columns
 

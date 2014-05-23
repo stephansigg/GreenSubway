@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  22 MAY 2014 16:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  23 MAY 2014 09:28
 entering extended mode
  %&-line parsing enabled.
 **GreenSubwayStationData.tex
@@ -410,23 +410,27 @@ LaTeX Info: Redefining \pageref on input line 6.
 \openout3 = `GreenSubwayStationData.out'.
 
 \AtBeginShipoutBox=\box32
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 48.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 41.
 
 (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) (./introduction.tex)
-(./environment.tex
-Overfull \hbox (7.55579pt too wide) in paragraph at lines 12--15
+) (./introduction.tex
+
+LaTeX Warning: Reference `sec:seam4us' on page \thepage  undefined on input lin
+e 8.
+
+) (./environment.tex
+Overfull \hbox (7.55579pt too wide) in paragraph at lines 5--8
 []\T1/aer/m/n/9 To in-ves-ti-gate on en-ergy ef-fi-cient sub-sys-tems, the EU f
 unded
  []
@@ -435,69 +439,69 @@ unded
 
 
 ]
-<Figures/PdG-L3_entranceExit.jpg, id=54, 2993.1825pt x 2457.18pt>
+<Figures/PdG-L3_entranceExit.jpg, id=49, 2993.1825pt x 2457.18pt>
 File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_entranceExit.jpg>
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 88.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 81.
 
-<Figures/PdG-L3_platform.jpg, id=59, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_platform.jpg, id=54, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_platform.jpg>
-<Figures/PdG-L3_escalator.jpg, id=61, 676.4472pt x 1108.14pt>
+<Figures/PdG-L3_escalator.jpg, id=56, 676.4472pt x 1108.14pt>
 File: Figures/PdG-L3_escalator.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_escalator.jpg>pdfTeX warning (ext4): destination with the s
 ame identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 
+l.102 
        [2 <./Figures/PdG-L3_entranceExit.jpg> <./Figures/PdG-L3_platform.jpg> <
 ./Figures/PdG-L3_escalator.jpg>]
-<Figures/PdG-L3_schematic2.jpg, id=72, 1214.5375pt x 693.59125pt>
+<Figures/PdG-L3_schematic2.jpg, id=67, 1214.5375pt x 693.59125pt>
 File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_schematic2.jpg>
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 113.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 106.
 
 
-LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 113.
+LaTeX Warning: Citation `TMB' on page \thepage  undefined on input line 106.
 
 
-Overfull \hbox (6.07394pt too wide) in paragraph at lines 117--118
+Overfull \hbox (6.07394pt too wide) in paragraph at lines 110--111
 []\T1/aer/m/n/9 Throughout the sta-tion a Closed Cir-cuit Tele-vi-sion (CCTV)
  []
 
-<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=76, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=71, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_transitArea.jpg>
-<Figures/PdG-L3_CCTVcamera_platform.jpg, id=78, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_CCTVcamera_platform.jpg, id=73, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_platform.jpg>
-Overfull \hbox (4.38081pt too wide) in paragraph at lines 142--143
+Overfull \hbox (4.38081pt too wide) in paragraph at lines 135--136
 \T1/aer/m/n/9 den-sity seen by the CCTV cam-eras. There-fore the CCTV sys-
  []
 
-<Figures/imageProcessing.pdf, id=81, 398.68939pt x 162.6075pt>
+<Figures/imageProcessing.pdf, id=76, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
-<use Figures/imageProcessing.pdf>
+<use Figures/imageProcessing.pdf>) (./passengerDensityData.tex
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_week.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_week.pdf, id=84, 844.95668pt x 597.43207pt>
+<Figures/rawData_week.pdf, id=79, 844.95668pt x 597.43207pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/rawData_day.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<Figures/rawData_day.pdf, id=85, 844.95668pt x 597.43207pt>
+<Figures/rawData_day.pdf, id=80, 844.95668pt x 597.43207pt>
 File: Figures/rawData_day.pdf Graphic file (type pdf)
 
 <use Figures/rawData_day.pdf>) (./conclusion.tex) (./acknowledgements.tex)
@@ -527,26 +531,30 @@ Figures/rawData_day.pdf>])pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \end{document}
-                    [5] (./GreenSubwayStationData.aux) ) 
+l.72 \end{document}
+                    [5] (./GreenSubwayStationData.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5841 strings out of 495021
- 80820 string characters out of 1181035
- 159968 words of memory out of 3000000
- 8845 multiletter control sequences out of 15000+50000
+ 5842 strings out of 495021
+ 80839 string characters out of 1181035
+ 159918 words of memory out of 3000000
+ 8844 multiletter control sequences out of 15000+50000
  46398 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  40i,11n,37p,574b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texli
-ve/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/
-share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texli
-ve/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/ur
-w/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
-Output written on GreenSubwayStationData.pdf (5 pages, 15551553 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmtt9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
+mf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on GreenSubwayStationData.pdf (5 pages, 15550837 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
