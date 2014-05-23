@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: GreenSubwayStationData.aux
 The style file: plain.bst
 Database file #1: references.bib.bib
@@ -7,7 +8,7 @@ Warning--to sort, need author or key in SEAM4US_Website
 Warning--empty booktitle in ansuini_models_2013
 You've used 3 entries,
             2118 wiz_defined-function locations,
-            513 strings with 4356 characters,
+            513 strings with 4357 characters,
 and the built_in function-call counts, 704 in all, are:
 = -- 60
 > -- 31
