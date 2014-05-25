@@ -2,9 +2,9 @@
 \section{SEAM4US project}
 \label{sec:seam4us}
 
-To investigate on energy efficient subsystems (ventilation, escalator, lightning), the EU funded in the Seventh Framework Programme the project "Sustainable Energy mAnageMent for Underground Stations" (SEAM4US). The aim of SEAM4US "is to develop advanced technologies for optimal and scalable control of metro stations [...]".~\cite{SEAM4US_Website}.
+To investigate on energy efficient subsystems (ventilation, escalator, lightning), the EU funded in the Seventh Framework Programme the project "Sustainable Energy mAnageMent for Underground Stations" (SEAM4US). The aim of SEAM4US "is to develop advanced technologies for optimal and scalable control of metro stations [...]"~\cite{SEAM4US_Website}.
 
-In cases where the SEAM4US system performs energy management tasks based on situations taking place in the future, a predictive control architecture is used~\cite{ansuini_models_2013}. The control architecture proactively controls the metro station subsystems under different passenger density and thermal conditions.
+Therefore a predictive control architecture was developed, which allows the SEAM4US system to perform energy management tasks based on situations taking place in the future~\cite{ansuini_models_2013}. The control architecture proactively controls the metro station subsystems under different passenger density and thermal conditions.
 To control in a foreseen manner, prediction models are used. Besides others, one prediction model is the user model, which predicts the passengers density in a certain section, on a certain time in the future.
 
 The SEAM4US consortium consists of nine partners from six different EU countries, namely Cofely, UniVPM, UPC, Fraunhofer FIT, VTT, Almende, UniKassel, CNET, and TMB. Each partner supports the consortium within its expertise:
@@ -21,7 +21,7 @@ The SEAM4US consortium consists of nine partners from six different EU countries
   \item[TMB] Transports Metropolitans De Barcelona Sa (Spain):\\Metro network operator.
 \end{description}
 
-The SEAM4US system is implemented in the underground station "Passeig de Gr\`{a}cia". Section~\ref{sec:station} gives more details about the station.
+The SEAM4US system is implemented in a pilot station in Barcelona (Spain). Section~\ref{sec:station} gives more details about the pilot station.
 
 
 \section{Pilot Station "Passeig de Gr\`{a}cia - Line 3"}
@@ -29,9 +29,12 @@ The SEAM4US system is implemented in the underground station "Passeig de Gr\`{a}
 
 %TODO http://www.tmb.cat/en/detall-linia-metro/-/linia/L3/327
 
-The SEAM4US system is implemented in the line station Passeig de Gr\`{a}cia - Line~3~(PdG-L3), which is a station within TMBs metro network in Barcelona. This section describes the station in detail, while the understanding of a "station" in the context of metro networks is defined first.
+The SEAM4US system is implemented in the pilot station Passeig de Gr\`{a}cia - Line~3~(PdG-L3), which is a station within TMBs metro network in Barcelona. This section describes the station more in detail.
+Before the difference between "line stations" and "metro stations" are pointed out.
 
-In general a metro network consists of one or more metro lines. Each line has a defined railway with a given number of stops to allow passengers to get on or off the trains. Each of these stops is called "line station". In contrast, a "metro station" represents the point in space through which passengers get underground and into a line station. Metro station and line station can be the same physical entity, but it is possible that a metro stations holds more than one line stations.
+In general, a metro network consists of one or more metro lines. Each line has a defined railway with a given number of stops to allow passengers to get on or off the trains. Each of these stops is called "line station". In contrast, a "metro station" represents the point in space through which passengers get underground and into a line station. Metro station and line station can be the same physical entity, but it is possible that a metro stations holds more than one line stations.
+
+As mentioned (line) station Passeig de Gr\`{a}cia - Line~3 serves as pilot station. In the following, details about the metro station Passeig de Gr\`{a}cia~(PdG) are given, followed by details about the pilot (line) station PdG-L3.
 
 The metro station Passeig de Gr\`{a}cia~(PdG) lies in the iconic and touristic part of Barcelona. Some popular buildings designed by Antoni Gaud\'{i} (Casa Batll\`{o}, Casa Mil\`{a}) as well as the city's most renown and exclusive boutiques are in the proximity.
 The metro station is one of the oldest of the Barcelona metro network. First opened in December 1924, as station for Line~3~(L3), nowadays PdG holds three different line stations: Line~2, Line~3, and Line~4. The line stations were built in three different periods, using different construction technologies. All line stations have been refurbished a few times since 1924, and new equipment has been added recently. Figure~\ref{fig:PdG_entranceExit} depicts an entrance/exit of metro station Passeig de Gr\`{a}cia.
