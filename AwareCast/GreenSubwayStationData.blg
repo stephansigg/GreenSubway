@@ -3,12 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: GreenSubwayStationData.aux
 The style file: plain.bst
 Database file #1: references.bib.bib
-Warning--I didn't find a database entry for "TMB"
 Warning--to sort, need author or key in SEAM4US_Website
 Warning--empty booktitle in ansuini_models_2013
 You've used 3 entries,
             2118 wiz_defined-function locations,
-            513 strings with 4357 characters,
+            511 strings with 4351 characters,
 and the built_in function-call counts, 704 in all, are:
 = -- 60
 > -- 31
@@ -47,4 +46,4 @@ warning$ -- 2
 while$ -- 4
 width$ -- 4
 write$ -- 27
-(There were 3 warnings)
+(There were 2 warnings)

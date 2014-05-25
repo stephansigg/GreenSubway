@@ -3,5 +3,7 @@
 \BOOKMARK [1][-]{section.3}{Metro Station "Passeig de Gr\340cia"}{}% 3
 \BOOKMARK [1][-]{section.4}{Passenger density data extraction}{}% 4
 \BOOKMARK [1][-]{section.5}{Passenger density data}{}% 5
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 6
-\BOOKMARK [1][-]{section.7}{References}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Properties of the data}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{Prediction by Artificial Neural Fuzzy Inference System}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 8
+\BOOKMARK [1][-]{section.7}{References}{}% 9

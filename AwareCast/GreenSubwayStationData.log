@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.3)  23 MAY 2014 18:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  25 MAY 2014 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **GreenSubwayStationData.tex
 (./GreenSubwayStationData.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (./sig-alternate.cls
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
@@ -469,7 +469,7 @@ unded
 
 
 ]
-<Figures/PdG-L3_entranceExit.jpg, id=54, 2993.1825pt x 2457.18pt>
+<Figures/PdG-L3_entranceExit.jpg, id=62, 2993.1825pt x 2457.18pt>
 File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_entranceExit.jpg>
@@ -477,21 +477,21 @@ Package pdftex.def Info: Figures/PdG-L3_entranceExit.jpg used on input line 72.
 
 (pdftex.def)             Requested size: 240.0pt x 196.99084pt.
 
-<Figures/PdG-L3_platform.jpg, id=60, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_platform.jpg, id=68, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_platform.jpg>
 Package pdftex.def Info: Figures/PdG-L3_platform.jpg used on input line 89.
 (pdftex.def)             Requested size: 240.0pt x 179.9688pt.
 
-<Figures/PdG-L3_escalator.jpg, id=62, 676.4472pt x 1108.14pt>
+<Figures/PdG-L3_escalator.jpg, id=70, 676.4472pt x 1108.14pt>
 File: Figures/PdG-L3_escalator.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_escalator.jpg>
 Package pdftex.def Info: Figures/PdG-L3_escalator.jpg used on input line 96.
 (pdftex.def)             Requested size: 240.0pt x 393.16418pt.
 
-<Figures/PdG-L3_schematic2.jpg, id=66, 1214.5375pt x 693.59125pt>
+<Figures/PdG-L3_schematic2.jpg, id=74, 1214.5375pt x 693.59125pt>
 File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_schematic2.jpg>
@@ -502,7 +502,7 @@ Overfull \hbox (6.07394pt too wide) in paragraph at lines 110--111
 []\T1/aer/m/n/9 Throughout the sta-tion a Closed Cir-cuit Tele-vi-sion (CCTV)
  []
 
-<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=72, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=80, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_transitArea.jpg>
@@ -510,7 +510,7 @@ Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_transitArea.jpg used on inpu
 t line 119.
 (pdftex.def)             Requested size: 231.84338pt x 173.85735pt.
 
-<Figures/PdG-L3_CCTVcamera_platform.jpg, id=74, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_CCTVcamera_platform.jpg, id=82, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_platform.jpg>
@@ -536,28 +536,51 @@ ady used, duplicate ignored
 l.163 
        [3 <./Figures/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures/PdG-L3_CCTVc
 amera_platform.jpg> <./Figures/PdG-L3_escalator.jpg> <./Figures/PdG-L3_schemati
-c2.jpg>] <Figures/imageProcessing.pdf, id=97, 398.68939pt x 162.6075pt>
+c2.jpg>] <Figures/imageProcessing.pdf, id=105, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
 <use Figures/imageProcessing.pdf>
 Package pdftex.def Info: Figures/imageProcessing.pdf used on input line 166.
 (pdftex.def)             Requested size: 240.0pt x 97.88531pt.
 ) (./passengerDensityData.tex
-<Figures/rawData_week.pdf, id=100, 844.95668pt x 597.43207pt>
+<Figures/rawData_week.pdf, id=108, 844.95668pt x 597.43207pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
-Package pdftex.def Info: Figures/rawData_week.pdf used on input line 15.
+Package pdftex.def Info: Figures/rawData_week.pdf used on input line 17.
 (pdftex.def)             Requested size: 231.84338pt x 163.92513pt.
 
-<Figures/rawData_day.pdf, id=101, 844.95668pt x 597.43207pt>
+<Figures/rawData_day.pdf, id=109, 844.95668pt x 597.43207pt>
 File: Figures/rawData_day.pdf Graphic file (type pdf)
 
 <use Figures/rawData_day.pdf>
-Package pdftex.def Info: Figures/rawData_day.pdf used on input line 20.
+Package pdftex.def Info: Figures/rawData_day.pdf used on input line 22.
 (pdftex.def)             Requested size: 231.84338pt x 163.92513pt.
-) (./conclusion.tex) (./acknowledgements.tex)
-(./GreenSubwayStationData.bbl
+
+<Figures/Figure_PersonCount_Hours.png, id=110, 1168.365pt x 551.05875pt>
+File: Figures/Figure_PersonCount_Hours.png Graphic file (type png)
+
+<use Figures/Figure_PersonCount_Hours.png>
+Package pdftex.def Info: Figures/Figure_PersonCount_Hours.png used on input lin
+e 32.
+(pdftex.def)             Requested size: 504.0pt x 237.7074pt.
+
+<Figures/Figure_Prediction.png, id=111, 1173.63469pt x 606.76688pt>
+File: Figures/Figure_Prediction.png Graphic file (type png)
+
+<use Figures/Figure_Prediction.png>
+Package pdftex.def Info: Figures/Figure_Prediction.png used on input line 40.
+(pdftex.def)             Requested size: 504.0pt x 260.5621pt.
+
+<Figures/Figure_PredictionError.png, id=112, 1207.51125pt x 602.25pt>
+File: Figures/Figure_PredictionError.png Graphic file (type png)
+
+<use Figures/Figure_PredictionError.png>
+Package pdftex.def Info: Figures/Figure_PredictionError.png used on input line 
+46.
+(pdftex.def)             Requested size: 504.0pt x 251.37186pt.
+) (./conclusion.tex)
+(./acknowledgements.tex) (./GreenSubwayStationData.bbl
 LaTeX Font Info:    Try loading font information for T1+aett on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
@@ -565,7 +588,7 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 
-Overfull \vbox (1.0866pt too high) has occurred while \output is active []
+Overfull \vbox (1.23465pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -579,24 +602,30 @@ ate ignored
                    \relax 
 l.72 \end{document}
                     [5 <./Figures/rawData_week.pdf> <./Figures/rawData_day.pdf>
-]
+ <./Figures/Figure_PersonCount_Hours.png>]pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \end{document}
+                    [6 <./Figures/Figure_Prediction.png> <./Figures/Figure_Pred
+ictionError.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./GreenSubwayStationData.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `GreenSubwayStationData.out' has not changed.
 
-(rerunfilecheck)             Checksum: 9779C359AF8EE72DE19D59B4E24F2684;383.
+(rerunfilecheck)             Checksum: 9F333790B141B75A5C14DD45FAF0FCB9;557.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 6790 strings out of 494985
- 96531 string characters out of 6180357
- 183412 words of memory out of 5000000
- 9831 multiletter control sequences out of 15000+600000
+ 6813 strings out of 494935
+ 97148 string characters out of 6178122
+ 185694 words of memory out of 5000000
+ 9861 multiletter control sequences out of 15000+600000
  46398 words of font info for 64 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,11n,29p,573b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,29p,573b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fo
@@ -604,10 +633,10 @@ nts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on GreenSubwayStationData.pdf (5 pages, 17796212 bytes).
+Output written on GreenSubwayStationData.pdf (6 pages, 17966326 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
