@@ -1,0 +1,78 @@
+\documentclass{sig-alternate}
+
+% some more configurations
+\input{config}
+
+\begin{document}
+
+\title{Passenger density prediction: Analysis of data from CCTV cameras in a Subway system}
+
+\numberofauthors{2} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Andreas Jahn and Klaus David\\
+       \affaddr{Kassel University}\\
+       \affaddr{Wilhelmh\"oher Allee 73}\\
+       \affaddr{Kassel, Germany}\\
+       \email{\{andreas.jahn,david\}@uni-kassel.de}
+% 2nd. author
+\alignauthor
+Stephan Sigg and Xiaoming Fu\\
+       \affaddr{Goettingen University}\\
+       \affaddr{Goldschmidtstr. 7}\\
+       \affaddr{G\"ottingen, Germany}\\
+       \email{\{stephan.sigg, fu\}@informatik.uni-goettingen.de}
+}
+
+% Title
+\maketitle
+
+% Abstract
+\begin{abstract}
+CCTV camera systems for monitoring and surveillance are widely utilised in enterprises or public systems. 
+It can provide a holistic view on a system and allows security and maintenance personnel to quickly react on changes in the system in an informed manner.
+However, mostly, the analysis of the data is done manually which is a tedious task and prone to errors or the missing out of information. 
+Automatic analysis of such video-recorded data can help to improve this task in efficiency and accuracy and also enables novel applications build on top of it. 
+
+In this paper we present the work done in the SEAM4US consortium that focuses on the automatic analysis of image data captured from CCTV cameras in a Barcelona metro system and to reaction on the extracted stimuli. 
+We present the sensing environment and discuss specifics of the system, introduce the steps for feature extraction from the video data, discuss peculiarities of the recorded data and demonstrate its predictability with an Artificial Neural Fuzzy Inference System (ANFIS).
+\end{abstract}
+
+% Introduction
+\input{introduction}
+
+% SEAM4US & Station
+\input{environment}
+
+% passenger density data
+\input{passengerDensityData}
+
+% Conlusion
+\input{conclusion}
+
+\let\oldtocsubsection=\tocsubsection
+% Acknowledgemnts
+\input{acknowledgements}
+
+\balance
+
+% References
+\label{sec:references}
+\bibliography{references.bib}
+\bibliographystyle{plain} %alpha plain
+
+
+\end{document}
