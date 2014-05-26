@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  26 MAY 2014 18:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  26 MAY 2014 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,28 +260,45 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen131
 ))
+(./bibspacing.sty
+\bibindent=\dimen132
+\bibspacing=\dimen133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count106
+\rotFPtop=\skip54
+\rotFPbot=\skip55
+\rot@float@box=\box27
+\rot@mess@toks=\toks19
+)
 (./GreenSubwayStationData.aux)
 \openout1 = `GreenSubwayStationData.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box27
+\AtBeginShipoutBox=\box28
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
@@ -291,7 +308,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -299,11 +316,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count106
+\c@section@level=\count107
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./GreenSubwayStationData.out) (./GreenSubwayStationData.out)
 \@outlinefile=\write3
@@ -312,17 +329,17 @@ LaTeX Info: Redefining \nameref on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen132
-\scratchbox=\box28
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen133
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count108
+\scratchdimen=\dimen134
+\scratchbox=\box29
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen135
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -338,150 +355,171 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 63.
 
-Overfull \hbox (12.7316pt too wide) in paragraph at lines 56--56
+Overfull \hbox (12.7316pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
 
-Overfull \hbox (280.04623pt too wide) in paragraph at lines 56--56
+Overfull \hbox (280.04623pt too wide) in paragraph at lines 63--63
 [][][]  
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
+(Font)              <5> on input line 63.
 (./introduction.tex [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 (./environment.tex [2]
-<Figures/PdG-L3_entranceExit.jpg, id=72, 2993.1825pt x 2004.48875pt>
+<Figures/PdG-L3_entranceExit.jpg, id=71, 2993.1825pt x 2004.48875pt>
 File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_entranceExit.jpg>
-Package pdftex.def Info: Figures/PdG-L3_entranceExit.jpg used on input line 45.
+Package pdftex.def Info: Figures/PdG-L3_entranceExit.jpg used on input line 46.
 
-(pdftex.def)             Requested size: 243.91124pt x 163.32921pt.
+(pdftex.def)             Requested size: 130.08621pt x 87.10892pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 46.
 See the caption package documentation for explanation.
 
-[3 <./Figures/PdG-L3_entranceExit.jpg>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 53.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 56.
 
-<Figures/PdG-L3_platform.jpg, id=84, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_platform.jpg, id=77, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_platform.jpg>
-Package pdftex.def Info: Figures/PdG-L3_platform.jpg used on input line 61.
-(pdftex.def)             Requested size: 243.91124pt x 182.93079pt.
+Package pdftex.def Info: Figures/PdG-L3_platform.jpg used on input line 70.
+(pdftex.def)             Requested size: 130.08621pt x 97.55807pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 62.
+(caption)                particular \caption on input line 70.
 See the caption package documentation for explanation.
 
-<Figures/PdG-L3_schematic2.jpg, id=88, 910.90312pt x 322.95656pt>
+[3 <./Figures/PdG-L3_entranceExit.jpg>]
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+<Figures/PdG-L3_schematic2.jpg, id=90, 910.90312pt x 322.95656pt>
 File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_schematic2.jpg>
-Package pdftex.def Info: Figures/PdG-L3_schematic2.jpg used on input line 78.
-(pdftex.def)             Requested size: 243.91124pt x 86.47502pt.
+Package pdftex.def Info: Figures/PdG-L3_schematic2.jpg used on input line 90.
+(pdftex.def)             Requested size: 130.08621pt x 46.12035pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 79.
+(caption)                particular \caption on input line 90.
 See the caption package documentation for explanation.
 
-<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=94, 3276.24pt x 1806.75pt>
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=96, 3276.24pt x 1806.75pt>
 File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_transitArea.jpg>
 Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_transitArea.jpg used on inpu
-t line 96.
-(pdftex.def)             Requested size: 241.02396pt x 132.90894pt.
+t line 114.
+(pdftex.def)             Requested size: 130.08621pt x 71.73389pt.
 
-<Figures/PdG-L3_CCTVcamera_platform.jpg, id=96, 3276.24pt x 1806.75pt>
+<Figures/PdG-L3_CCTVcamera_platform.jpg, id=98, 3276.24pt x 1806.75pt>
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_platform.jpg>
 Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_platform.jpg used on input l
-ine 101.
-(pdftex.def)             Requested size: 241.02396pt x 132.90894pt.
-
-Overfull \hbox (3.77937pt too wide) in paragraph at lines 96--102
- [][] 
- []
-
-
-Overfull \hbox (3.77937pt too wide) in paragraph at lines 96--102
- [][] 
- []
+ine 114.
+(pdftex.def)             Requested size: 130.08621pt x 71.73389pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 103.
+(caption)                particular \caption on input line 114.
 See the caption package documentation for explanation.
 
-[4 <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_schematic2.jpg>] [5 <./Fig
-ures/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures/PdG-L3_CCTVcamera_platform.j
-pg>] <Figures/imageProcessing.pdf, id=122, 398.68939pt x 162.6075pt>
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 114--114
+ [] 
+ []
+
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 114--114
+ [][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4 <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_schematic2.jpg> <./Figures
+/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures/PdG-L3_CCTVcamera_platform.jpg>]
+<Figures/imageProcessing.pdf, id=118, 398.68939pt x 162.6075pt>
 File: Figures/imageProcessing.pdf Graphic file (type pdf)
 
 <use Figures/imageProcessing.pdf>
-Package pdftex.def Info: Figures/imageProcessing.pdf used on input line 145.
-(pdftex.def)             Requested size: 243.91124pt x 99.47824pt.
+Package pdftex.def Info: Figures/imageProcessing.pdf used on input line 159.
+(pdftex.def)             Requested size: 318.97627pt x 130.08621pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 146.
+(caption)                particular \caption on input line 159.
 See the caption package documentation for explanation.
 
+
+LaTeX Warning: Marginpar on page 5 moved.
+
 ) (./passengerDensityData.tex
-<Figures/rawData_week.pdf, id=124, 439.4301pt x 151.18683pt>
+<Figures/rawData_week.pdf, id=120, 439.4301pt x 151.18683pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
-Package pdftex.def Info: Figures/rawData_week.pdf used on input line 12.
-(pdftex.def)             Requested size: 523.95749pt x 180.29057pt.
+Package pdftex.def Info: Figures/rawData_week.pdf used on input line 17.
+(pdftex.def)             Requested size: 378.13048pt x 130.08621pt.
 
-<Figures/Figure_PersonCount_Hours.png, id=125, 1168.365pt x 551.05875pt>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 17.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+<Figures/Figure_PersonCount_Hours.png, id=121, 1168.365pt x 551.05875pt>
 File: Figures/Figure_PersonCount_Hours.png Graphic file (type png)
 
 <use Figures/Figure_PersonCount_Hours.png>
 Package pdftex.def Info: Figures/Figure_PersonCount_Hours.png used on input lin
-e 20.
+e 21.
 (pdftex.def)             Requested size: 523.95749pt x 247.13329pt.
 
-<Figures/Figure_Prediction.png, id=126, 1173.63469pt x 606.76688pt>
+<Figures/Figure_Prediction.png, id=122, 1173.63469pt x 606.76688pt>
 File: Figures/Figure_Prediction.png Graphic file (type png)
 
 <use Figures/Figure_Prediction.png>
-Package pdftex.def Info: Figures/Figure_Prediction.png used on input line 28.
+Package pdftex.def Info: Figures/Figure_Prediction.png used on input line 29.
 (pdftex.def)             Requested size: 523.95749pt x 270.88533pt.
 
-<Figures/Figure_PredictionError.png, id=127, 1207.51125pt x 602.25pt>
+<Figures/Figure_PredictionError.png, id=123, 1207.51125pt x 602.25pt>
 File: Figures/Figure_PredictionError.png Graphic file (type png)
 
 <use Figures/Figure_PredictionError.png>
 Package pdftex.def Info: Figures/Figure_PredictionError.png used on input line 
-34.
+35.
 (pdftex.def)             Requested size: 523.95749pt x 261.32417pt.
-) (./conclusion.tex) [6 <./Figures/imageProcessing.pdf>] (./acknowledgements.te
-x) (./GreenSubwayStationData.bbl
+) (./conclusion.tex)
+(./acknowledgements.tex) (./GreenSubwayStationData.bbl
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -489,31 +527,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-
-Overfull \vbox (2.22223pt too high) has occurred while \output is active []
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 
 
-[7 <./Figures/rawData_week.pdf>] [8 <./Figures/Figure_PersonCount_Hours.png>]
-[9 <./Figures/Figure_Prediction.png>] [10 <./Figures/Figure_PredictionError.png
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[5 <./Figures/imageProcessing.pdf> <./Figures/rawData_week.pdf>] [6 <./Figures/
+Figure_PersonCount_Hours.png>] [7 <./Figures/Figure_Prediction.png>] [8 <./Figu
+res/Figure_PredictionError.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (./GreenSubwayStationData.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `GreenSubwayStationData.out' has not changed.
 
-(rerunfilecheck)             Checksum: C45DA92A4349072BFF546888BE8AA120;692.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+(rerunfilecheck)             Checksum: 2FFE5452E3FEAED34F463B2BAC8C206A;692.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 6959 strings out of 494935
- 107042 string characters out of 6178122
- 183592 words of memory out of 5000000
- 10050 multiletter control sequences out of 15000+600000
+ 7069 strings out of 494935
+ 108507 string characters out of 6178122
+ 186360 words of memory out of 5000000
+ 10152 multiletter control sequences out of 15000+600000
  11093 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,7n,41p,592b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,9n,44p,592b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/
@@ -523,10 +562,10 @@ ype1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
 a.pfb>
-Output written on GreenSubwayStationData.pdf (10 pages, 11307747 bytes).
+Output written on GreenSubwayStationData.pdf (8 pages, 11306255 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
