@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  26 MAY 2014 17:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.11)  26 MAY 2014 17:32
 entering extended mode
  %&-line parsing enabled.
 **GreenSubwayStationData.tex
@@ -349,7 +349,7 @@ File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
 <use Figures/PdG-L3_entranceExit.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 44.
+(caption)                particular \caption on input line 46.
 See the caption package documentation for explanation.
 
 
@@ -363,7 +363,7 @@ File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
 <use Figures/PdG-L3_platform.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 63.
+(caption)                particular \caption on input line 62.
 See the caption package documentation for explanation.
 
 <Figures/PdG-L3_schematic2.jpg, id=89, 910.90312pt x 322.95656pt>
@@ -372,7 +372,7 @@ File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 <use Figures/PdG-L3_schematic2.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 80.
+(caption)                particular \caption on input line 79.
 See the caption package documentation for explanation.
 
 <Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=95, 3276.24pt x 1806.75pt>
@@ -383,18 +383,18 @@ File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_platform.jpg>
-Overfull \hbox (3.77937pt too wide) in paragraph at lines 97--103
+Overfull \hbox (3.77937pt too wide) in paragraph at lines 96--102
  [][] 
  []
 
 
-Overfull \hbox (3.77937pt too wide) in paragraph at lines 97--103
+Overfull \hbox (3.77937pt too wide) in paragraph at lines 96--102
  [][] 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 104.
+(caption)                particular \caption on input line 103.
 See the caption package documentation for explanation.
 
 [4 <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_schematic2.jpg>] [5 <./Fig
@@ -405,7 +405,7 @@ File: Figures/imageProcessing.pdf Graphic file (type pdf)
 <use Figures/imageProcessing.pdf>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 148.
+(caption)                particular \caption on input line 146.
 See the caption package documentation for explanation.
 
 ) (./passengerDensityData.tex
@@ -447,7 +447,7 @@ ng (PNG copy)>] [10 <./Figures/Figure_PredictionError.png (PNG copy)>]
 Here is how much of TeX's memory you used:
  5920 strings out of 495021
  89738 string characters out of 1181035
- 164509 words of memory out of 3000000
+ 164508 words of memory out of 3000000
  8950 multiletter control sequences out of 15000+50000
  11093 words of font info for 34 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -460,7 +460,7 @@ nts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
 tt9.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on GreenSubwayStationData.pdf (10 pages, 11319347 bytes).
+Output written on GreenSubwayStationData.pdf (10 pages, 11319453 bytes).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
