@@ -1,0 +1,10 @@
+# ignore specific files
+.DS_Store
+
+# use wildcards
+*~
+*.swp
+*.odt
+
+# ignore all directories and files in a directory
+#tmp/**/*

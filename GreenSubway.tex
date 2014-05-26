@@ -1,0 +1,95 @@
+\documentclass{sig-alternate}
+
+% some more configurations
+\input{config}
+
+\begin{document}
+%
+% --- Author Metadata here ---
+%\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{The Foretelling Subway: Anticipatory Sensing for the Prediction of Passenger Density in Underground Systems}
+
+\numberofauthors{2} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Andreas Jahn and Klaus David\\
+       \affaddr{Kassel University}\\
+       \affaddr{Wilhelmh\"oher Allee 73}\\
+       \affaddr{Kassel, Germany}\\
+       \email{\{andreas.jahn,david\}@uni-kassel.de}
+% 2nd. author
+\alignauthor
+Stephan Sigg and Xiaoming Fu\\
+       \affaddr{Goettingen University}\\
+       \affaddr{Goldschmidtstr. 7}\\
+       \affaddr{G\"ottingen, Germany}\\
+       \email{\{stephan.sigg, fu\}@informatik.uni-goettingen.de}
+% 3rd. author
+% \alignauthor
+% Klaus David\\
+%        \affaddr{Kassel University}\\
+%        \affaddr{Wilhelmh\"oher Allee 73}\\
+%        \affaddr{Kassel, Germany}\\
+%        \email{david@uni-kassel.de}
+}
+
+% Title
+\maketitle
+
+% Abstract
+\begin{abstract}
+% Vorschlag: Context Prediction machen ja alle ... Wie wäre z.B. 'Anticipatory Sensing'? Wir können das im Text/einleitung noch ein bisschen formal definieren und als 'spezial-Form' von Context prediction definieren. 
+% das hört sich vielleicht noch ein bisschen interessanter an :).
+In this work we introduce the concept of Anticipatory Sensing, a paradigm in which current stimuli, general trends and history are analysed in order to anticipate likely future evolution of observed stimuli. 
+In particular, we discuss the toolchain for Anticipatory Sensing, latest developments and trends that lead to this sensing paradigm and present a case-study in which the approach is utilised. 
+
+In this case-study, CCTV sensors in a Metro station in Barcelona, Spain are exploited in order to predict crowd.
+The video data is first piped through an image processing chain in order to extract relevant features which are then utilised for the Anticipatory Sensing toolchain. 
+We are able to show good prediction accuracy of our approach. 
+\end{abstract}
+
+% Introduction
+\input{introduction}
+
+% State of the art
+\input{stateOfTheArt}
+
+% dataAcquisition
+\input{dataAcquisition}
+
+% Results
+\input{results}
+
+% Conlusion
+\input{conclusion}
+
+\let\oldtocsubsection=\tocsubsection
+% Acknowledgements
+\input{acknowledgements}
+
+\balance
+
+% References
+\label{sec:references}
+\bibliography{literaturGreenSubway.bib}
+\bibliographystyle{plain} %alpha plain
+
+
+\end{document}
