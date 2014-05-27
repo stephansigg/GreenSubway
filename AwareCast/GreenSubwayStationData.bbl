@@ -17,6 +17,12 @@ Eldaw, M. H.~S., Levene, M., and Roussos, G.
 \newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
   ubiquitous computing adjunct publication}, ACM (2013), 441--450.
 
+\bibitem{Prediction_Jang_1993}
+Jang, J.-S.
+\newblock Anfis: adaptive-network-based fuzzy inference system.
+\newblock {\em Systems, Man and Cybernetics, IEEE Transactions on 23}, 3
+  (1993), 665--685.
+
 \bibitem{5001}
 Mayrhofer, R.~M.
 \newblock {\em An Architecture for Context Prediction}.
@@ -51,7 +57,7 @@ Sigg, S., Haseloff, S., and David, K.
 \newblock {\em IEEE Pervasive Computing Oct-Dec 2010\/} (2010).
 
 \bibitem{TMB_2014}
-(TMB), T. M. D.~B., 2014.
+{Transports Metropolita De Barcelona (TMB)}, 2014.
 
 \bibitem{Prediction_Zhang_2013}
 Zhang, Y., Nguyen, L.~T., and Zhang, J.

@@ -1,4 +1,11 @@
 \section{Conclusion}
 \label{sec:conclusion}
 In this paper we have dicusssed ongoing work in the SEAM4US project. 
-In particular, we have presented the  
+In particular, we have discussed peculiarities of the Barcelona underground system under observation.
+This has in particular shown that there are plenty of CCTV sensors installed in underground metro systems which are capable to generate enormous amounts of feature data which can be utilised, for instance, for the analysis and prediction of passenger density over time.
+In particular, we could observe that, although the magnitude of passenger density fluctuation differs depending on where in the system the corresponding cameras are installed, this fluctuation is highly correlated among the CCTV sensors.
+Furthermore, the data shows clear patterns that allow prediction of passenger density over time. 
+We have therefore investigated the predictability with an Artificial Neural Fuzzy Inference System which as shown good potential for the prediction in various applications. 
+In future work we will investigate the predictability of this data to exploit potential energy savings by controlling electricity and fan-speed more accurately and based on actual load.  
+In particular, for energy optimal control of this subway subsystem the SEAM4US project develops a predictive control architecture. 
+The control architecture proactively performs energy management tasks based on situations taking place in the future. 

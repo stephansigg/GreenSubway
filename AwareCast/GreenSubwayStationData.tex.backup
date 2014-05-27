@@ -1,13 +1,21 @@
-\documentclass{sig-alternate}
+\documentclass{chi-ext}
 
 % some more configurations
 \input{config}
 
+\usepackage{graphicx}   % for EPS use the graphics package instead
+% \usepackage{balance}    % useful for balancing the last columns
+\usepackage{bibspacing} % save vertical space in references
+\usepackage{rotating}
+% \usepackage{multirow}
+% \usepackage{subfig}
+
 \begin{document}
 
-\title{Passenger density prediction: Analysis of data from CCTV cameras in a Subway system}
+\title{\plaintitle}
 
-\numberofauthors{2} %  in this sample file, there are a *total*
+
+\numberofauthors{4} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -22,19 +30,33 @@
 % affiliation/address with \affaddr, and tag the e-mail address with \email.
 %
 % 1st. author
-\alignauthor
-Andreas Jahn and Klaus David\\
-       \affaddr{Kassel University}\\
-       \affaddr{Wilhelmh\"oher Allee 73}\\
-       \affaddr{Kassel, Germany}\\
-       \email{\{andreas.jahn,david\}@uni-kassel.de}
-% 2nd. author
-\alignauthor
-Stephan Sigg and Xiaoming Fu\\
-       \affaddr{Goettingen University}\\
-       \affaddr{Goldschmidtstr. 7}\\
-       \affaddr{G\"ottingen, Germany}\\
-       \email{\{stephan.sigg, fu\}@informatik.uni-goettingen.de}
+\alignauthor{
+	\textbf{Andreas Jahn}\\
+	\affaddr{Kassel University}\\
+	\affaddr{Wilhelmh\"oher Allee 73}\\
+	\affaddr{Kassel, Germany}\\
+	\email{andreas.jahn@uni-kassel.de}
+	}\alignauthor{
+	\textbf{Klaus David}\\
+	\affaddr{Kassel University}\\
+	\affaddr{Wilhelmh\"oher Allee 73}\\
+	\affaddr{Kassel, Germany}\\
+	\email{david@uni-kassel.de}
+	}
+\vfil
+\alignauthor{
+	\textbf{Stephan Sigg}\\
+	\affaddr{Goettingen University}\\
+	\affaddr{Goldschmidtstr. 7}\\
+	\affaddr{G\"ottingen, Germany}\\
+	\email{stephan.sigg@informatik.uni-goettingen.de}
+    }\alignauthor{
+	\textbf{Xiaoming Fu}\\
+	\affaddr{Goettingen University}\\
+	\affaddr{Goldschmidtstr. 7}\\
+	\affaddr{G\"ottingen, Germany}\\
+	\email{fu@informatik.uni-goettingen.de}
+    }
 }
 
 % Title
@@ -42,13 +64,30 @@ Stephan Sigg and Xiaoming Fu\\
 
 % Abstract
 \begin{abstract}
-In this work we introduce the environment for passenger occupancy prediction
+CCTV camera systems for monitoring and surveillance are widely utilised in enterprises or public systems. 
+They can provide a holistic view on a system and allow security and maintenance personnel to quickly react on changes in the system in an informed manner.
+However, mostly, the analysis of the data is done manually which is a tedious task and prone to errors or the missing out of information. 
+Automatic analysis of such video-recorded data can help to improve this task in efficiency and accuracy and also enables novel applications build on top of it. 
+
+In this paper we present the work done in the SEAM4US consortium that focuses on the automatic analysis of image data captured from CCTV cameras in a Barcelona metro system and to react on the extracted stimuli. 
+We present the sensing environment and detail specifics of the system, introduce the steps for feature extraction from the video data, discuss peculiarities of the recorded data and demonstrate its predictability with an Artificial Neural Fuzzy Inference System (ANFIS).
 \end{abstract}
+
+% Author Keywords - Mandatory section to be included in your final version.
+\keywords{\plainkeywords}%config.tex
+
+% ACM Classification Keywords - Mandatory section to be included in your final version.
+%\category{H.5.m}{Information interfaces and presentation (e.g., HCI)}{Miscellaneous}. 
+%See: \url{http://www.acm.org/about/class/1998/} for help using the ACM Classification system.
+
+% General Terms - optional NOT mandatory
+%\terms{\plaingeneralterms}
+
 
 % Introduction
 \input{introduction}
 
-% SEAM4US & Station
+% SEAM4US & pilot station & CCTV
 \input{environment}
 
 % passenger density data
@@ -57,16 +96,15 @@ In this work we introduce the environment for passenger occupancy prediction
 % Conlusion
 \input{conclusion}
 
-\let\oldtocsubsection=\tocsubsection
 % Acknowledgemnts
 \input{acknowledgements}
 
-\balance
+% \balance
 
 % References
 \label{sec:references}
+\bibliographystyle{acm-sigchi} %alpha plain
 \bibliography{references.bib}
-\bibliographystyle{plain} %alpha plain
 
 
 \end{document}
