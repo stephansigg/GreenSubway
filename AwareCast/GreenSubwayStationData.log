@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  27 MAY 2014 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  27 MAY 2014 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,13 +385,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Figures/PdG-L3_entranceExit.jpg, id=62, 2993.1825pt x 2004.48875pt>
-File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
+<Figures/resized_PdG-L3_entranceExit.jpg, id=62, 602.25pt x 403.5075pt>
+File: Figures/resized_PdG-L3_entranceExit.jpg Graphic file (type jpg)
 
-<use Figures/PdG-L3_entranceExit.jpg>
-Package pdftex.def Info: Figures/PdG-L3_entranceExit.jpg used on input line 22.
-
-(pdftex.def)             Requested size: 130.08621pt x 87.10892pt.
+<use Figures/resized_PdG-L3_entranceExit.jpg>
+Package pdftex.def Info: Figures/resized_PdG-L3_entranceExit.jpg used on input 
+line 22.
+(pdftex.def)             Requested size: 130.08621pt x 87.15878pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -399,45 +399,58 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 ) (./environment.tex
-<Figures/PdG-L3_platform.jpg, id=67, 3276.24pt x 2457.18pt>
-File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
+<Figures/resized_PdG-L3_platform.jpg, id=67, 602.25pt x 451.6875pt>
+File: Figures/resized_PdG-L3_platform.jpg Graphic file (type jpg)
 
-<use Figures/PdG-L3_platform.jpg>
-Package pdftex.def Info: Figures/PdG-L3_platform.jpg used on input line 33.
-(pdftex.def)             Requested size: 130.08621pt x 97.55807pt.
+<use Figures/resized_PdG-L3_platform.jpg>
+Package pdftex.def Info: Figures/resized_PdG-L3_platform.jpg used on input line
+ 33.
+(pdftex.def)             Requested size: 130.08621pt x 97.5658pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
-<Figures/PdG-L3_schematic2.jpg, id=70, 910.90312pt x 322.95656pt>
-File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 
-<use Figures/PdG-L3_schematic2.jpg>
-Package pdftex.def Info: Figures/PdG-L3_schematic2.jpg used on input line 44.
-(pdftex.def)             Requested size: 130.08621pt x 46.12035pt.
+LaTeX Warning: File `Figures/resized_PdG-L3_schematic2.jpg' not found on input 
+line 44.
+
+
+! Package pdftex.def Error: File `Figures/resized_PdG-L3_schematic2.jpg' not fo
+und.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 }
+      
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 44.
 See the caption package documentation for explanation.
 
-<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=73, 3276.24pt x 1806.75pt>
-File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
-<use Figures/PdG-L3_CCTVcamera_transitArea.jpg>
-Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_transitArea.jpg used on inpu
-t line 61.
-(pdftex.def)             Requested size: 130.08621pt x 71.73389pt.
+<Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg, id=72, 602.25pt x 332.24126
+pt>
+File: Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
-<Figures/PdG-L3_CCTVcamera_platform.jpg, id=76, 3276.24pt x 1806.75pt>
-File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
+ <use Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg>
+Package pdftex.def Info: Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg used
+ on input line 61.
+(pdftex.def)             Requested size: 130.08621pt x 71.76506pt.
 
-<use Figures/PdG-L3_CCTVcamera_platform.jpg>
-Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_platform.jpg used on input l
-ine 61.
-(pdftex.def)             Requested size: 130.08621pt x 71.73389pt.
+<Figures/resized_PdG-L3_CCTVcamera_platform.jpg, id=75, 602.25pt x 332.24126pt>
+File: Figures/resized_PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
+<use Figures/resized_PdG-L3_CCTVcamera_platform.jpg>
+Package pdftex.def Info: Figures/resized_PdG-L3_CCTVcamera_platform.jpg used on
+ input line 61.
+(pdftex.def)             Requested size: 130.08621pt x 71.76506pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -454,7 +467,7 @@ Overfull \hbox (6.66666pt too wide) in paragraph at lines 61--61
  [][] 
  []
 
-[2 <./Figures/PdG-L3_entranceExit.jpg>]
+[2 <./Figures/resized_PdG-L3_entranceExit.jpg>]
 
 LaTeX Warning: Marginpar on page 3 moved.
 
@@ -464,8 +477,8 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-[3 <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_schematic2.jpg> <./Figures
-/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures/PdG-L3_CCTVcamera_platform.jpg>]
+[3 <./Figures/resized_PdG-L3_platform.jpg> <./Figures/resized_PdG-L3_CCTVcamera
+_transitArea.jpg> <./Figures/resized_PdG-L3_CCTVcamera_platform.jpg>]
 <Figures/imageProcessing2.pdf, id=113, 126.4725pt x 324.0106pt>
 File: Figures/imageProcessing2.pdf Graphic file (type pdf)
 
@@ -571,11 +584,11 @@ Package rerunfilecheck Info: File `GreenSubwayStationData.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 7089 strings out of 494935
- 108748 string characters out of 6178122
+ 7087 strings out of 494935
+ 108798 string characters out of 6178122
  189058 words of memory out of 5000000
- 10164 multiletter control sequences out of 15000+600000
- 12011 words of font info for 37 fonts, out of 8000000 for 9000
+ 10161 multiletter control sequences out of 15000+600000
+ 12179 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,9n,44p,804b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -585,12 +598,13 @@ fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
-a.pfb>
-Output written on GreenSubwayStationData.pdf (7 pages, 11299454 bytes).
+onts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+
+Output written on GreenSubwayStationData.pdf (7 pages, 1076915 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  58 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
