@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  26 MAY 2014 19:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  27 MAY 2014 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,7 +381,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 (./environment.tex [2]
-<Figures/PdG-L3_entranceExit.jpg, id=71, 2993.1825pt x 2004.48875pt>
+<Figures/PdG-L3_entranceExit.jpg, id=85, 2993.1825pt x 2004.48875pt>
 File: Figures/PdG-L3_entranceExit.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_entranceExit.jpg>
@@ -398,7 +398,7 @@ See the caption package documentation for explanation.
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 56.
 
-<Figures/PdG-L3_platform.jpg, id=77, 3276.24pt x 2457.18pt>
+<Figures/PdG-L3_platform.jpg, id=91, 3276.24pt x 2457.18pt>
 File: Figures/PdG-L3_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_platform.jpg>
@@ -410,11 +410,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 70.
 See the caption package documentation for explanation.
 
-[3 <./Figures/PdG-L3_entranceExit.jpg>]
-
-LaTeX Warning: Marginpar on page 4 moved.
-
-<Figures/PdG-L3_schematic2.jpg, id=90, 910.90312pt x 322.95656pt>
+<Figures/PdG-L3_schematic2.jpg, id=95, 910.90312pt x 322.95656pt>
 File: Figures/PdG-L3_schematic2.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_schematic2.jpg>
@@ -426,10 +422,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 90.
 See the caption package documentation for explanation.
 
+[3 <./Figures/PdG-L3_entranceExit.jpg> <./Figures/PdG-L3_platform.jpg>]
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=96, 3276.24pt x 1806.75pt>
+<Figures/PdG-L3_CCTVcamera_transitArea.jpg, id=112, 3276.24pt x 1806.75pt>
 File: Figures/PdG-L3_CCTVcamera_transitArea.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_transitArea.jpg>
@@ -437,7 +434,7 @@ Package pdftex.def Info: Figures/PdG-L3_CCTVcamera_transitArea.jpg used on inpu
 t line 114.
 (pdftex.def)             Requested size: 130.08621pt x 71.73389pt.
 
-<Figures/PdG-L3_CCTVcamera_platform.jpg, id=98, 3276.24pt x 1806.75pt>
+<Figures/PdG-L3_CCTVcamera_platform.jpg, id=114, 3276.24pt x 1806.75pt>
 File: Figures/PdG-L3_CCTVcamera_platform.jpg Graphic file (type jpg)
 
 <use Figures/PdG-L3_CCTVcamera_platform.jpg>
@@ -460,17 +457,14 @@ Overfull \hbox (6.66666pt too wide) in paragraph at lines 114--114
  [][] 
  []
 
+[4 <./Figures/PdG-L3_schematic2.jpg> <./Figures/PdG-L3_CCTVcamera_transitArea.j
+pg> <./Figures/PdG-L3_CCTVcamera_platform.jpg>]
+<Figures/imageProcessing2.pdf, id=132, 126.4725pt x 324.0106pt>
+File: Figures/imageProcessing2.pdf Graphic file (type pdf)
 
-LaTeX Warning: Marginpar on page 4 moved.
-
-[4 <./Figures/PdG-L3_platform.jpg> <./Figures/PdG-L3_schematic2.jpg> <./Figures
-/PdG-L3_CCTVcamera_transitArea.jpg> <./Figures/PdG-L3_CCTVcamera_platform.jpg>]
-<Figures/imageProcessing.pdf, id=118, 398.68939pt x 162.6075pt>
-File: Figures/imageProcessing.pdf Graphic file (type pdf)
-
-<use Figures/imageProcessing.pdf>
-Package pdftex.def Info: Figures/imageProcessing.pdf used on input line 159.
-(pdftex.def)             Requested size: 318.97627pt x 130.08621pt.
+<use Figures/imageProcessing2.pdf>
+Package pdftex.def Info: Figures/imageProcessing2.pdf used on input line 159.
+(pdftex.def)             Requested size: 130.08621pt x 333.27486pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -481,7 +475,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Marginpar on page 5 moved.
 
 ) (./passengerDensityData.tex
-<Figures/rawData_week.pdf, id=120, 439.4301pt x 151.18683pt>
+<Figures/rawData_week.pdf, id=134, 439.4301pt x 151.18683pt>
 File: Figures/rawData_week.pdf Graphic file (type pdf)
 
 <use Figures/rawData_week.pdf>
@@ -496,7 +490,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-<Figures/Figure_PersonCount_Hours.png, id=121, 1168.365pt x 551.05875pt>
+<Figures/Figure_PersonCount_Hours.png, id=135, 1168.365pt x 551.05875pt>
 File: Figures/Figure_PersonCount_Hours.png Graphic file (type png)
 
 <use Figures/Figure_PersonCount_Hours.png>
@@ -504,14 +498,14 @@ Package pdftex.def Info: Figures/Figure_PersonCount_Hours.png used on input lin
 e 21.
 (pdftex.def)             Requested size: 523.95749pt x 247.13329pt.
 
-<Figures/Figure_Prediction.png, id=122, 1173.63469pt x 606.76688pt>
+<Figures/Figure_Prediction.png, id=136, 1173.63469pt x 606.76688pt>
 File: Figures/Figure_Prediction.png Graphic file (type png)
 
 <use Figures/Figure_Prediction.png>
 Package pdftex.def Info: Figures/Figure_Prediction.png used on input line 29.
 (pdftex.def)             Requested size: 523.95749pt x 270.88533pt.
 
-<Figures/Figure_PredictionError.png, id=123, 1207.51125pt x 602.25pt>
+<Figures/Figure_PredictionError.png, id=137, 1207.51125pt x 602.25pt>
 File: Figures/Figure_PredictionError.png Graphic file (type png)
 
 <use Figures/Figure_PredictionError.png>
@@ -526,18 +520,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[5 <./Figures/imageProcessing.pdf> <./Figures/rawData_week.pdf>] [6 <./Figures/
-Figure_PersonCount_Hours.png>] [7 <./Figures/Figure_Prediction.png>] [8 <./Figu
-res/Figure_PredictionError.png>]
+[5 <./Figures/imageProcessing2.pdf> <./Figures/rawData_week.pdf>] [6 <./Figures
+/Figure_PersonCount_Hours.png>] [7 <./Figures/Figure_Prediction.png>] [8 <./Fig
+ures/Figure_PredictionError.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+
+! Dimension too large.
+<recently read> \@colht 
+                        
+l.110 \end{document}
+                    
+I can't work with sizes bigger than about 19 feet.
+Continue and I'll use the largest value I can.
+
+
+Overfull \vbox (1.25pt too high) has occurred while \output is active []
+
+ [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
- (./GreenSubwayStationData.aux)
+
+(./GreenSubwayStationData.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `GreenSubwayStationData.out' has not changed.
@@ -546,13 +553,13 @@ Package rerunfilecheck Info: File `GreenSubwayStationData.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 7069 strings out of 494935
- 108507 string characters out of 6178122
- 186360 words of memory out of 5000000
- 10152 multiletter control sequences out of 15000+600000
+ 7084 strings out of 494935
+ 108691 string characters out of 6178122
+ 187577 words of memory out of 5000000
+ 10159 multiletter control sequences out of 15000+600000
  11093 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 43i,9n,44p,592b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,9n,44p,592b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/
@@ -562,10 +569,10 @@ ype1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8
 a.pfb>
-Output written on GreenSubwayStationData.pdf (8 pages, 11306255 bytes).
+Output written on GreenSubwayStationData.pdf (9 pages, 11310825 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

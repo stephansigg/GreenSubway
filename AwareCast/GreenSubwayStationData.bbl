@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{SEAM4US_Website}
 Seam4us official website.
@@ -10,7 +10,51 @@ Ansuini, R., Vaccarini, M., Giretti, A., and Ruffini, S.
 \newblock Models for the real-time control of subway stations (Chamb\'{e}ry,
   France, Aug. 2013).
 
+\bibitem{2097}
+Eagle, N., and Pentland, A.~S.
+\newblock Eigenbehaviors: Identifying structure in routine.
+\newblock {\em Behavioral Ecology and Sociobiology 63}, 7 (Mai 2009),
+  1057--1066.
+
+\bibitem{Prediction_Eldaw_2013}
+Eldaw, M. H.~S., Levene, M., and Roussos, G.
+\newblock Collective suffix tree-based models for location prediction.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, ACM (2013), 441--450.
+
+\bibitem{5001}
+Mayrhofer, R.~M.
+\newblock {\em An Architecture for Context Prediction}.
+\newblock PhD thesis, Johannes Kepeler University of Linz, Altenbergstrasse 69,
+  4040 Linz, Austria, Oktober 2004.
+
+\bibitem{4011}
+Sigg, S.
+\newblock {\em Development of a novel context prediction algorithm and analysis
+  of context prediction schemes}.
+\newblock PhD thesis, University of Kassel, Chair for Communication Technology,
+  ComTec, May 2008.
+
+\bibitem{4027}
+Sigg, S., Gordon, D., Zengen, G.~v., Beigl, M., Haseloff, S., and David, K.
+\newblock Investigation of context prediction accuracy for different context
+  abstraction levels.
+\newblock {\em IEEE Transactions on Mobile Computing 11}, 6 (june 2012), 1047
+  --1059.
+
+\bibitem{4026}
+Sigg, S., Haseloff, S., and David, K.
+\newblock An alignment approach for context prediction tasks in ubicomp
+  environments.
+\newblock {\em IEEE Pervasive Computing Oct-Dec 2010\/} (2010).
+
 \bibitem{TMB_2014}
 (TMB), T. M. D.~B., 2014.
+
+\bibitem{Prediction_Zhang_2013}
+Zhang, Y., Nguyen, L.~T., and Zhang, J.
+\newblock Wait time prediction: how to avoid waiting in lines?
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, ACM (2013), 481--490.
 
 \end{thebibliography}
