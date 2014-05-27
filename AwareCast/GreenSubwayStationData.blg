@@ -4,46 +4,45 @@ The top-level auxiliary file: GreenSubwayStationData.aux
 The style file: acm-sigchi.bst
 Database file #1: references.bib.bib
 Warning--to sort, need author or key in SEAM4US_Website
-Warning--empty booktitle in ansuini_models_2013
 You've used 10 entries,
             2243 wiz_defined-function locations,
-            588 strings with 5602 characters,
-and the built_in function-call counts, 3117 in all, are:
-= -- 298
-> -- 139
+            589 strings with 5701 characters,
+and the built_in function-call counts, 3066 in all, are:
+= -- 296
+> -- 129
 < -- 0
-+ -- 60
-- -- 48
-* -- 221
-:= -- 505
-add.period$ -- 27
++ -- 56
+- -- 44
+* -- 209
+:= -- 495
+add.period$ -- 28
 call.type$ -- 10
-change.case$ -- 51
+change.case$ -- 49
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 118
-empty$ -- 260
-format.name$ -- 48
-if$ -- 656
+cite$ -- 11
+duplicate$ -- 120
+empty$ -- 262
+format.name$ -- 44
+if$ -- 650
 int.to.chr$ -- 0
 int.to.str$ -- 10
 missing$ -- 6
-newline$ -- 50
+newline$ -- 51
 num.names$ -- 18
-pop$ -- 71
+pop$ -- 68
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 42
 quote$ -- 0
-skip$ -- 83
+skip$ -- 84
 stack$ -- 0
 substring$ -- 177
-swap$ -- 25
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 40
-warning$ -- 2
+warning$ -- 1
 while$ -- 27
 width$ -- 12
-write$ -- 98
-(There were 2 warnings)
+write$ -- 100
+(There was 1 warning)

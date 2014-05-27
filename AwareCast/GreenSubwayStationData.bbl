@@ -5,11 +5,6 @@ Seam4us official website.
 \newblock \url{http://seam4us.eu/}.
 \newblock Accessed: 2014-05-19.
 
-\bibitem{ansuini_models_2013}
-Ansuini, R., Vaccarini, M., Giretti, A., and Ruffini, S.
-\newblock Models for the real-time control of subway stations (Chamb\'{e}ry,
-  France, Aug. 2013).
-
 \bibitem{2097}
 Eagle, N., and Pentland, A.~S.
 \newblock Eigenbehaviors: Identifying structure in routine.
@@ -27,6 +22,13 @@ Mayrhofer, R.~M.
 \newblock {\em An Architecture for Context Prediction}.
 \newblock PhD thesis, Johannes Kepeler University of Linz, Altenbergstrasse 69,
   4040 Linz, Austria, Oktober 2004.
+
+\bibitem{Prediction_Zhang_2012}
+R.~Zhang, B.~Price, M.~C., and Walendowski, A.
+\newblock Location-based predictions for personalized contextual services using
+  social network data.
+\newblock In {\em First Workshop on recent advances in behavior prediction and
+  pro-active pervasive computing} (2012).
 
 \bibitem{4011}
 Sigg, S.
