@@ -19,10 +19,10 @@ Due to the acquisition process in which density information is extracted from ci
 \end{figure}
 }
 of the various cameras (see description of the recording process above), for each camera one estimate on passenger density is computed every one minute, leading to a total of 1440 samples per camera and per day.
-Again, due to the data processing operation, samples taken are not simultaneous for different cameras but taken sequentially so that pairwise samples are misaligned by at most 30 seconds.
+Again, due to the data processing operation, samples taken are not simultaneous for different cameras but taken sequentially so that pairwise samples are misaligned by at most 30~seconds.
 
 The passenger density is highly correlated for the distinct cameras installed in the metro system which reflects that a specific share of the passengers is always observed by any of the cameras.
-This is depicted in figure~\ref{figureHours}.
+This is depicted in Figure~\ref{figureHours}.
 
 The figure displays the mean aggregated passenger density over the course of several days and observed by four different CCTV cameras (with IDs 711, 716, 7004 and 7112).
 
@@ -39,17 +39,17 @@ A single point in this figure reflects the mean aggregated passenger density ove
 \begin{figure}
 \begin{center}
  \includegraphics[height=.5\columnwidth]{Figures/Figure_PersonCount_Hours.png}
- \caption{Passenger density evolution over the course of several days}
+ \caption{Passenger density evolution over the course of several days.}
   \label{figureHours}
   \end{center}
 \end{figure}
 
 We observe that passenger density peaks for the respective cameras are correlated but of different magnitude. 
-The overall mean passenger density and standard deviation observed over the same recording time per minute are depicted in table~\ref{tablePassengerDensity}
+The overall mean passenger density and standard deviation observed over the same recording time per minute are depicted in Table~\ref{tablePassengerDensity}.
 
 \begin{table}
 \begin{center}
-\caption{Mean and standard deviation of passenger density data observed at CCTV cameras}
+\caption{Mean and standard deviation of passenger density data observed at CCTV cameras.}
 \label{tablePassengerDensity}
 \begin{tabular}{r|ll}
 CCTV ID & mean & standard deviation\\\hline
@@ -82,23 +82,23 @@ CCTV ID & mean & standard deviation\\\hline
 Given the passenger density data provided from the CCTV camera system, we have attempted to predict passenger density with an Adaptive Network-based Fuzzy Inference System (ANFIS)~\cite{Prediction_Jang_1993}.
 The ANFIS algorithm was configured to conduct 10 training epochs with a training error goal of 0, an initial step size of 0.01 and step size decrease and increase rates of 0.09 and 1.1 respectively. 
 
-For the training of the system, we utilised data from three consecutive week days and attempted to predict the following two days. 
-Exemplary prediction results are depicted in figure~\ref{FigurePrediction} for four distinct CCTV cameras.
+For the training of the system, we utilized data from three consecutive weekdays and attempted to predict the following two days. 
+Exemplary prediction results are depicted in Figure~\ref{FigurePrediction} for four distinct CCTV cameras.
 The figures show the actual and the predicted evolution of passenger density data.
 
 \begin{figure}
 \hspace*{-0.6\columnwidth}% displace figure
 \parbox{1.6\columnwidth}{
   \centering
-     \includegraphics[width=1.6\columnwidth]{Figures/Figure_Prediction.png}
- \caption{ANFIS prediction of passenger density}
- \label{FigurePrediction}
+  \includegraphics[width=1.6\columnwidth]{Figures/Figure_Prediction.png}
+  \caption{ANFIS prediction of passenger density.}
+  \label{FigurePrediction}
  }
 \end{figure}
 
 We observe that a reasonable prediction accuracy was achieved while the evolution of the predicted sequence often briefly preceded the actual evolution of passenger density.
 
-The prediction error over time is depicted in figure~\ref{figurePredictionError}.
+The prediction error over time is depicted in Figure~\ref{figurePredictionError}.
 We observe that the prediction error is low in all cases and near zero.
 
 

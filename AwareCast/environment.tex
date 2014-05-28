@@ -17,7 +17,7 @@ The control architecture, the prediction models as well as hardware components c
 \label{sec:station}
 
 %TODO http://www.tmb.cat/en/detall-linia-metro/-/linia/L3/327
-The SEAM4US system is implemented in the pilot station Passeig de Gr\`{a}cia - Line~3~(PdG-L3), which is a station within TMBs metro network in Barcelona (figure~\ref{fig:PdG_entranceExit}). 
+The SEAM4US system is implemented in the pilot station Passeig de Gr\`{a}cia - Line~3~(PdG-L3), which is a station within TMBs metro network in Barcelona (Figure~\ref{fig:PdG_entranceExit}). 
 This section describes the station in more detail.
 
 In general, a metro network consists of one or more metro lines. 
@@ -36,31 +36,48 @@ In contrast, a "metro station" represents the architecture through which passeng
 \marginpar{
 \begin{figure}%[htbp]
   \begin{center}
-  \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_schematic2.jpg} 
-  \caption{PdG-L3 Schematic~\cite{TMB_2014}}
+  \includegraphics[width=\marginparwidth]{Figures/PdG-L3_schematic2.jpg} 
+  \caption{PdG-L3 schematic representation.~\cite{TMB_2014}}
   \label{fig:PdG-L3_schematic}
   \end{center}
 \end{figure}
 }
 \marginpar{
 \begin{figure}%[htbp]
-  \begin{center}
-  \subfigure[Camera in a PdG transit area. \cite{TMB_2014}] {
-    \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg}
-    \label{fig:PdG-L3_CCTVcamera_transitArea}
-  }
-  \hfill
-  \subfigure[Camera in PdG-L3 platform. \cite{TMB_2014}] {
-    \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_platform.jpg}
-    \label{fig:PdG-L3_CCTVcamera_platform}
-  }
-  \caption{Installed cameras}
-  \label{fig:PdG-L3_CCTVcameras}
-  \end{center}
+  \centering
+  \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_platform.jpg}
+  \caption{CCTV camera in PdG-L3 platform. \cite{TMB_2014}}
+  \label{fig:PdG-L3_CCTVcamera_platform}
+\end{figure}
+}
+\marginpar{
+\begin{figure}%[htbp]
+  \centering
+  \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg}
+  \caption{CCTV camera in a PdG transit area. \cite{TMB_2014}}    
+  \label{fig:PdG-L3_CCTVcamera_transitArea}
 \end{figure}
 }
 
-The metro station Passeig de Gr\`{a}cia~(PdG) was chosen as a representative station for the SEAM4US project. 
+%\marginpar{
+%\begin{figure}%[htbp]
+%  \begin{center}
+%  \subfigure[Camera in a PdG transit area. \cite{TMB_2014}] {
+%    \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_transitArea.jpg}
+%    \label{fig:PdG-L3_CCTVcamera_transitArea}
+%  }
+%  \hfill
+%  \subfigure[Camera in PdG-L3 platform. \cite{TMB_2014}] {
+%    \includegraphics[width=\marginparwidth]{Figures/resized_PdG-L3_CCTVcamera_platform.jpg}
+%    \label{fig:PdG-L3_CCTVcamera_platform}
+%  }
+%  \caption{Installed cameras}
+%  \label{fig:PdG-L3_CCTVcameras}
+%  \end{center}
+%\end{figure}
+%}
+
+The metro station Passeig de Gr\`{a}cia~(PdG) was chosen as a representative station for the SEAM4US project.
 It is located in the iconic and touristic part of Barcelona. Some popular buildings designed by Antoni Gaud\'{i} (Casa Batll\`{o}, Casa Mil\`{a}) as well as the city's most renown and exclusive boutiques are in the proximity.
 The metro station is one of the oldest of the Barcelona metro network. 
 First opened in December 1924, as station for Line~3~(L3), nowadays PdG holds three different line stations: Line~2, Line~3, and Line~4. The line stations were built in three different periods, using different construction technologies. 
@@ -71,10 +88,10 @@ Between Monday and Thursday PdG service starts at 5:00 and ends at 24:00 (19~hou
 PdG-L3 was as pilot station selected since it turned out to be representative for many stations within TMBs metro network~\cite{TMB_2014}. 
 The count of fans, escalators, and the platform schema is comparable to other stations. 
 Moreover, PdG-L3 is a crowded station which have low-rate usage hours as well. 
-Therefore a wide range of data is available, that allows to test with very busy peak hours as well as with off-peaks.
+Therefore, a wide range of data is available, that allows to test with very busy peak hours as well as with off-peaks.
 
 % \subsection{Spaces}
-\label{subsec:PdG-L3_spaces}
+%\label{subsec:PdG-L3_spaces}
 
 The line station PdG-L3 consists of private (staff only) and public spaces. 
 Private spaces such as technical rooms or staff dependencies are not part of the investigation of the SEAM4US project, whereas public spaces, such as halls, transit areas, accesses to the platforms, and platforms are, in the focus for the energy efficient control.
@@ -96,14 +113,13 @@ A schematic representation of PdG-L3 is drawn in Figure~\ref{fig:PdG-L3_schemati
 
 
 % \subsection{CCTV System}
-\label{subsec:CCTVSystem}
+%\label{subsec:CCTVSystem}
 
 Throughout the station a Closed Circuit Television~(CCTV) surveillance system is installed. 
 20~CCTV~cameras on different locations provide images for security reasons. 
-Figure~\ref{fig:PdG-L3_CCTVcameras} shows exemplary CCTV cameras on the platform~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}) as well as in the transit area~(Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea}).
+Figure~\ref{fig:PdG-L3_CCTVcamera_platform} and Figure~\ref{fig:PdG-L3_CCTVcamera_transitArea} show exemplary CCTV cameras on the platform as well as in the transit area.
 
-
-The CCTV System provides the basis for the predictive passenger model. In the following the data extraction  is explained.
+The CCTV~system provides the basis for the predictive passenger model. In the following, the data extraction is explained.
 
 
 \section{Count of persons extraction}
@@ -112,9 +128,9 @@ The CCTV System provides the basis for the predictive passenger model. In the fo
 The SEAM4US system utilizes a prediction model for proactively controlling the subsystems.
 Besides others, the passenger model is a part of the predictive controlling architecture.
 To predict count of persons for a point in the future, the model utilizes the output of the CCTV monitoring system. 
-The count of persons is extracted by enhancing the CCTV-system with image processing.
+The count of persons is extracted by enhancing the CCTV~system with image processing.
 
-Whenever camera pictures are processed privacy issues are tackled. In order to ensure the passengers privacy several design constraints where defined:
+Whenever camera pictures are processed privacy issues are tackled. In order to ensure the passengers privacy several design constraints were defined:
 
 \begin{enumerate}\setlength{\itemsep}{-2pt}
   \item All CCTV images are processed within the station.
@@ -146,7 +162,7 @@ The extraction algorithm uses a combination of edge detection and background sub
 % In the  following, the algorithm is described briefly.
 First the algorithm separates background and foreground. 
 Followed by creating the foreground mask.
-Through filtering the edges of the foreground only are extracted. 
+Through filtering the edges of the foreground only, is extracted. 
 The foreground edges are combined with the foreground mask. 
 Finally, the result is refined by dilating (and then eroding) the segmented blobs.
 %In parallel to the process described above, we detect the edge of the whole image by applying the Canny edge detection on the three RGB channels of the original image; the results acquired the different channels are then combined via a simple logic OR. Eventually, the intersection of this image with the dilated foreground mask  (obtained using a logic AND) allows us to extract the edges of the foreground only (see Figure 13). 
